@@ -1,0 +1,4580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C0793E71794591177BAD8423AAD22CC /* TianYan */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A9255A8ED9039468DCFA1FA8FF37E8F0 /* Build configuration list for PBXAggregateTarget "TianYan" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TianYan;
+		};
+		0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 08D2230B668FED3C04FDCFAB652EF9CD /* Build configuration list for PBXAggregateTarget "APLog" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = APLog;
+		};
+		0F681679473EBD02A4B9B3EDFD8ABD7E /* APMobileNetwork */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5D91B0E090D098F6456932FD650C47B /* Build configuration list for PBXAggregateTarget "APMobileNetwork" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F69ACF6768355988E401C46ED184A20A /* PBXTargetDependency */,
+				B0F02538C4196A832216F5A38377FCE8 /* PBXTargetDependency */,
+				99E79938AFA1F66C462A00E413EECFFC /* PBXTargetDependency */,
+				637B75608C1831C70E3A74A6C733BEFC /* PBXTargetDependency */,
+			);
+			name = APMobileNetwork;
+		};
+		0FB087232C163BE713EA34868BD29643 /* APWebImage */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E05404BF048D5DCE8A87FDF99BB253A5 /* Build configuration list for PBXAggregateTarget "APWebImage" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = APWebImage;
+		};
+		1F8BA55E004B191523EA6CE00DCCCFE5 /* NebulaSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C68C95C195BC4E653A7B6620045D853C /* Build configuration list for PBXAggregateTarget "NebulaSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				8060B5F5BAE692181B9542537E493BA8 /* PBXTargetDependency */,
+				E61FF3BADAC843A6FF3A5FEC20F63972 /* PBXTargetDependency */,
+				BE8F45A63478098950C2C8F7C4F4A2B2 /* PBXTargetDependency */,
+			);
+			name = NebulaSDK;
+		};
+		39ECD579BA06A9D774BDFEB9D3378766 /* APOpenSSL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F683B3AD0F6EBD4BE0863CB04EEEB81 /* Build configuration list for PBXAggregateTarget "APOpenSSL" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = APOpenSSL;
+		};
+		3A946CF13A30E70716A38FADA2F95E79 /* MPMgsAdapter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3B7044181561D5A165BE947D04447FAE /* Build configuration list for PBXAggregateTarget "MPMgsAdapter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1A9A5DA29463FE14847F182A01B0F982 /* PBXTargetDependency */,
+			);
+			name = MPMgsAdapter;
+		};
+		4863D9B7AB289E489DD574863D709C93 /* UTDID */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 84AEF5633E17C9D1F83FFA2C86CF139E /* Build configuration list for PBXAggregateTarget "UTDID" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UTDID;
+		};
+		4C4F5FEB43DB3E714E44934C20971D06 /* APCommonUI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 268FBE8C5C1B2C20CD62866FF9D058BD /* Build configuration list for PBXAggregateTarget "APCommonUI" */;
+			buildPhases = (
+			);
+			dependencies = (
+				71D37D9AEF2FF692CBADCCD4B0606A16 /* PBXTargetDependency */,
+			);
+			name = APCommonUI;
+		};
+		50A1F73DCC5D385DA2A118ACA5832339 /* MPPerformance */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B9739D79E9BE2840F4371676DD599E0 /* Build configuration list for PBXAggregateTarget "MPPerformance" */;
+			buildPhases = (
+			);
+			dependencies = (
+				8ACEEE911B657338A6EDE5B93BE5E385 /* PBXTargetDependency */,
+				93B9CF570B0882F6BCC29C36528925CD /* PBXTargetDependency */,
+				A42F6B4D505E5F37FA0347ECED880AF7 /* PBXTargetDependency */,
+				FC5A9BAEE36B9EC41E2058CF37E4C01E /* PBXTargetDependency */,
+			);
+			name = MPPerformance;
+		};
+		66EBE67085BF26D5B8C3FB1D37A9F63F /* APProtocolBuffers */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F89C9F96D5F0813DDBA77447D43696E2 /* Build configuration list for PBXAggregateTarget "APProtocolBuffers" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = APProtocolBuffers;
+		};
+		6C5855DA7FBCFD8ADC4465F0AB67A2DE /* MPMasAdapter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7DC2CEC22692EA0209CB38B605313AAE /* Build configuration list for PBXAggregateTarget "MPMasAdapter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				98B869EC6C61EB1F242894FF1B1608A9 /* PBXTargetDependency */,
+				D7A2B4141DF6FB63DA69D2D999D2974D /* PBXTargetDependency */,
+				FE02239102AC33F4806B5C2183DC5EFA /* PBXTargetDependency */,
+				A85EFBD7B31F22D486EA502034189020 /* PBXTargetDependency */,
+			);
+			name = MPMasAdapter;
+		};
+		74F3119507D72F6A7C4DB6C1759C5859 /* MASSProxy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D9A76BD96CC6DF7DB653C3574F84A423 /* Build configuration list for PBXAggregateTarget "MASSProxy" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9363EAAC44D6CBC5FE55DDF1D3DA6B7C /* PBXTargetDependency */,
+			);
+			name = MASSProxy;
+		};
+		7D188B9E0804B99089890F3FFC060B9E /* APLongLinkService */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8EA58132E33DF74DE8A331269130C721 /* Build configuration list for PBXAggregateTarget "APLongLinkService" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9E66BA92A44BFC51A7691F7B7F8C8E50 /* PBXTargetDependency */,
+				A378443B4C9BE91977B5406BD1B3AC0A /* PBXTargetDependency */,
+				F50480A22475E6EB74606D18CB880E6A /* PBXTargetDependency */,
+				9C11B976C8BAB44B2C2BE347363833E9 /* PBXTargetDependency */,
+				1B7AF2EE65D00C1DD3DF6206C7EFC315 /* PBXTargetDependency */,
+				0C3BAD56B7C8DA41236442C2EAEB852E /* PBXTargetDependency */,
+			);
+			name = APLongLinkService;
+		};
+		8C51F9A10CAFB4A8C188B3B0F303B1E6 /* AutoTracker */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9859754CAF352D6A6DBC7ECA27609EC6 /* Build configuration list for PBXAggregateTarget "AutoTracker" */;
+			buildPhases = (
+			);
+			dependencies = (
+				69DC6FADA56D2F64D1BDD07BE01DDF54 /* PBXTargetDependency */,
+				0F2901367F3E54409DE665D3BD04D640 /* PBXTargetDependency */,
+			);
+			name = AutoTracker;
+		};
+		8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D /* MPDataCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AEDBAD561D25EC75061D6AD09DEA9E58 /* Build configuration list for PBXAggregateTarget "MPDataCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				83EFDF798926071A7C4EA70BF39800EC /* PBXTargetDependency */,
+			);
+			name = MPDataCenter;
+		};
+		919AE78568B8AD28C02F03C100FA8817 /* MASSChannel */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 830AE90380193A7C7DA43A42D99ED2DE /* Build configuration list for PBXAggregateTarget "MASSChannel" */;
+			buildPhases = (
+			);
+			dependencies = (
+				966FDD2BE4D6DBB6F5B9FBE6EEC1A34E /* PBXTargetDependency */,
+			);
+			name = MASSChannel;
+		};
+		94D1DDF6BCD57BDBE6A10ED5DA249091 /* SecurityGuardSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E843175903CCB1E33E25E0777D1201D2 /* Build configuration list for PBXAggregateTarget "SecurityGuardSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SecurityGuardSDK;
+		};
+		991C7EE517BFA39A3287D96134C359F1 /* APCrashReporter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D06BD1D8C2615E3F055B4A67B9D24123 /* Build configuration list for PBXAggregateTarget "APCrashReporter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D9847167104A6FC7695FE284BC6998D3 /* PBXTargetDependency */,
+				D6B9CA0775B8C4EBD40C95351D2BBFB9 /* PBXTargetDependency */,
+				4CBA184DFB758E9C566E59209202509F /* PBXTargetDependency */,
+			);
+			name = APCrashReporter;
+		};
+		9A02864533E64BC00D260DCE9A3D8907 /* APMobileFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EFA59209A6D5BDB6B8FA92B154991209 /* Build configuration list for PBXAggregateTarget "APMobileFramework" */;
+			buildPhases = (
+			);
+			dependencies = (
+				07A14711CC773D022251229BA11E2DE1 /* PBXTargetDependency */,
+				5594A792B5DC0A55F75241D6160C913B /* PBXTargetDependency */,
+				7800A2FD4CC63BDEC24C7487623EFD63 /* PBXTargetDependency */,
+			);
+			name = APMobileFramework;
+		};
+		9D75D3FE2958E92FF142D4A8780CEC1F /* AntUI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F1C00C38DFA1071E27A8FC54DEE0FB00 /* Build configuration list for PBXAggregateTarget "AntUI" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AntUI;
+		};
+		9E15CEBC5D012F3C10A0C64164AFE86D /* APSecurityUtility */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2D43A8C44AB6E864A8BCBD3DB58AA062 /* Build configuration list for PBXAggregateTarget "APSecurityUtility" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = APSecurityUtility;
+		};
+		AE230D4C28C24CAD34258B7AE582A017 /* NebulaPoseidon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 690DBEB6825715EB9B012B3CC32BCEB1 /* Build configuration list for PBXAggregateTarget "NebulaPoseidon" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = NebulaPoseidon;
+		};
+		B4A4BBEADEBB30F08F42712C005FC889 /* MPMssAdapter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B5B38DB6CCA7E665167F0A5BF453292 /* Build configuration list for PBXAggregateTarget "MPMssAdapter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F71809935AE33702690B6B3D43F803DD /* PBXTargetDependency */,
+			);
+			name = MPMssAdapter;
+		};
+		B57433549F767E1704B104B50C7423BA /* NebulamPaaSBiz */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A435D473223B72E8D53A2B1678E5661 /* Build configuration list for PBXAggregateTarget "NebulamPaaSBiz" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6C0F48D6720B6162F1330D83B6A76274 /* PBXTargetDependency */,
+				F735BEE17FB9EDC3B6C702DAAB25F307 /* PBXTargetDependency */,
+				339AB5DB2DE82AD51FDB1E43E90D72F6 /* PBXTargetDependency */,
+				AD257D4DBFAAE25E06516A54416C6346 /* PBXTargetDependency */,
+				8BC3166483048DA962BCD9A51D8BC1A6 /* PBXTargetDependency */,
+				07C808CBF3C998203AF012096CFEBB5D /* PBXTargetDependency */,
+				8BF8DA050EC849EDF0AF27D8B2183DCA /* PBXTargetDependency */,
+			);
+			name = NebulamPaaSBiz;
+		};
+		BB30AD74A30509D9CB8266B586949315 /* MPNebulaSDKPlugins */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9493D26F524384FAC88775BCCBDDB3D8 /* Build configuration list for PBXAggregateTarget "MPNebulaSDKPlugins" */;
+			buildPhases = (
+			);
+			dependencies = (
+				ECE6C1BC9E53198E179649579C6C597D /* PBXTargetDependency */,
+				9ABDDF81E692EE78920467C8F620D283 /* PBXTargetDependency */,
+				F137D8105C33BE574E596C0ECADF128D /* PBXTargetDependency */,
+				DF4EBD984DCCCD425383F7F907365A16 /* PBXTargetDependency */,
+				135710F3B3E32FE2D63FE3E1855A3EBA /* PBXTargetDependency */,
+				7BCCC69D19E90B2DB388B17254A6C9D4 /* PBXTargetDependency */,
+			);
+			name = MPNebulaSDKPlugins;
+		};
+		BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94D7B03DB764D9AE1C29470121F9EB0C /* Build configuration list for PBXAggregateTarget "mPaas" */;
+			buildPhases = (
+			);
+			dependencies = (
+				A76420DE029F495E0E3D1F1FEB8A8082 /* PBXTargetDependency */,
+			);
+			name = mPaas;
+		};
+		C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7A9A292182A04AB6B066FC69BA90291A /* Build configuration list for PBXAggregateTarget "APRemoteLogging" */;
+			buildPhases = (
+			);
+			dependencies = (
+				97C8A76A740744F907396DB12B939F45 /* PBXTargetDependency */,
+				E9DAE45AAFEBD662E3089701F8CF1273 /* PBXTargetDependency */,
+			);
+			name = APRemoteLogging;
+		};
+		C7DE4DA431FBE7F319A482B38AF986F2 /* MPMpaaSService */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 38EF4E4AC7C8BC60D5379300BFC899B3 /* Build configuration list for PBXAggregateTarget "MPMpaaSService" */;
+			buildPhases = (
+			);
+			dependencies = (
+				AC8533B29199A097D9BC1A4B6579479B /* PBXTargetDependency */,
+				54E94723363D76EF93FEC3C60B12F7CE /* PBXTargetDependency */,
+				C7942B571B67B17A6B3AFCE372D087EB /* PBXTargetDependency */,
+				DA51AB846650475E1B84AF57AEEBF6F0 /* PBXTargetDependency */,
+				5A8283C20C8E041AECB068E172121297 /* PBXTargetDependency */,
+				563757489A0B8B51980F5DE75435D901 /* PBXTargetDependency */,
+			);
+			name = MPMpaaSService;
+		};
+		CF5E24F1AE687090EEEF5E44729524A4 /* NebulaLogging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C289EA079FA3167BD8FDC9175987D32C /* Build configuration list for PBXAggregateTarget "NebulaLogging" */;
+			buildPhases = (
+			);
+			dependencies = (
+				47D9C228F533ED87805C638CA1BC5B42 /* PBXTargetDependency */,
+				36947BA4F01BB0E3823927242BD7C091 /* PBXTargetDependency */,
+				CA0EC1D6504CEF22E56F70F0A7029032 /* PBXTargetDependency */,
+			);
+			name = NebulaLogging;
+		};
+		D5B48D62752D2D0EF4748D1195E9C71D /* NebulaAppManager */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F3BD5065CEBE5A3F63420A9E2CF7AA0 /* Build configuration list for PBXAggregateTarget "NebulaAppManager" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = NebulaAppManager;
+		};
+		EEE1C91A6DE116F1D0CF2922C2448972 /* MPNebulaAdapter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A57344A02F5B488BFD89DDEAC3370C3B /* Build configuration list for PBXAggregateTarget "MPNebulaAdapter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				DD5AD9600E321A6C386F264EDD9C219C /* PBXTargetDependency */,
+				B030D15BB85690DCA90C079A5C67DC3C /* PBXTargetDependency */,
+				058C3BA75F5583E21C2194F34FBDEF80 /* PBXTargetDependency */,
+				7060D1AACFC7314574A2B58D07CF0471 /* PBXTargetDependency */,
+				52998C4AB771A315FF2B6DB7146A647E /* PBXTargetDependency */,
+				85808E6321EB0AB872F9F988365A1EAB /* PBXTargetDependency */,
+			);
+			name = MPNebulaAdapter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		49A6E734A3A3343ED0D33AFAF9B042EB /* Pods-podTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62505C9EE23A29EFBC40DDBFBE49FD1A /* Pods-podTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A43C1706B73EDDC0A373E8F085000F7 /* Pods-podTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D336B8A43B1BF8A85EAC805B3528D5F3 /* Pods-podTest-dummy.m */; };
+		C301F60E6821746914B1D1DBD7D4971B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00EF9F67A7D23DA0833F3C8A17D79E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C51F9A10CAFB4A8C188B3B0F303B1E6;
+			remoteInfo = AutoTracker;
+		};
+		05DEB79795E6B156F10C215477AF4745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919AE78568B8AD28C02F03C100FA8817;
+			remoteInfo = MASSChannel;
+		};
+		0941B09062317CFE86F7FAECBF8F7A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E15CEBC5D012F3C10A0C64164AFE86D;
+			remoteInfo = APSecurityUtility;
+		};
+		09B1E33DAC1732C1CAC264B94AB9E872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBE67085BF26D5B8C3FB1D37A9F63F;
+			remoteInfo = APProtocolBuffers;
+		};
+		0BD8CF8AD0470DEA509834D93A8D7834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		0CDA3A397FDB41464576A94FDF73B36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A946CF13A30E70716A38FADA2F95E79;
+			remoteInfo = MPMgsAdapter;
+		};
+		0DC9B7593786E11A6C7655DCEF9E30B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B48D62752D2D0EF4748D1195E9C71D;
+			remoteInfo = NebulaAppManager;
+		};
+		14663E0F69BCA84FAF4AED06DD03A07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E15CEBC5D012F3C10A0C64164AFE86D;
+			remoteInfo = APSecurityUtility;
+		};
+		16D422496A2DAAE3547B89BA01744DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991C7EE517BFA39A3287D96134C359F1;
+			remoteInfo = APCrashReporter;
+		};
+		1A43CCCA4D517B239E2B248E3A215EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5E24F1AE687090EEEF5E44729524A4;
+			remoteInfo = NebulaLogging;
+		};
+		1D59564C713E619F87C29846149800CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4F5FEB43DB3E714E44934C20971D06;
+			remoteInfo = APCommonUI;
+		};
+		203987FA0CC31D86C45D39612212FD3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBE67085BF26D5B8C3FB1D37A9F63F;
+			remoteInfo = APProtocolBuffers;
+		};
+		21D2E0B773497F8F96B49983F3333E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECFB72C0FD8D5CA63B11441F3F5DC28;
+			remoteInfo = APLog;
+		};
+		2596DBD16158C92813C349EF31E39B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D75D3FE2958E92FF142D4A8780CEC1F;
+			remoteInfo = AntUI;
+		};
+		29841D8586B67DA74073039F53EB85CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57433549F767E1704B104B50C7423BA;
+			remoteInfo = NebulamPaaSBiz;
+		};
+		2A3C8F1AD72368007D817C136FD6DB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A1F73DCC5D385DA2A118ACA5832339;
+			remoteInfo = MPPerformance;
+		};
+		2AF3F8C54951A5FF758E007DFC1291B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB087232C163BE713EA34868BD29643;
+			remoteInfo = APWebImage;
+		};
+		2C96055953A6551697B19574E400B302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D1DDF6BCD57BDBE6A10ED5DA249091;
+			remoteInfo = SecurityGuardSDK;
+		};
+		2D22D213EC6E72139F7B21D7ADAFDF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		2E09FA03881EB33B0448D737F8F418C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D75D3FE2958E92FF142D4A8780CEC1F;
+			remoteInfo = AntUI;
+		};
+		2EEEF8F7A82A04FB7B94F74FB3D3637A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4F5FEB43DB3E714E44934C20971D06;
+			remoteInfo = APCommonUI;
+		};
+		322BE2D32A5D2837C0388691C0BF5DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A02864533E64BC00D260DCE9A3D8907;
+			remoteInfo = APMobileFramework;
+		};
+		35366111C1B75E52CDA2B4173035C448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		37C2CF6D3D300C09C5DAAB16F28AE431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		39F95AC4D4CDBEEA3AE60431804DB48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B48D62752D2D0EF4748D1195E9C71D;
+			remoteInfo = NebulaAppManager;
+		};
+		3CECB470698B98F543D477D8528728D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F681679473EBD02A4B9B3EDFD8ABD7E;
+			remoteInfo = APMobileNetwork;
+		};
+		40A06580B5C76D0724628BEB3C1C5F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B48D62752D2D0EF4748D1195E9C71D;
+			remoteInfo = NebulaAppManager;
+		};
+		42CE1BAC88EBABC11B5523D78A23EFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		4B64BD1693DDC728D5DDED12D3949B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F3119507D72F6A7C4DB6C1759C5859;
+			remoteInfo = MASSProxy;
+		};
+		4C142F55E279512BDD5BD427B6B048EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D;
+			remoteInfo = MPDataCenter;
+		};
+		4EA743A8901FAFD3B077CBE42C6F765D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D188B9E0804B99089890F3FFC060B9E;
+			remoteInfo = APLongLinkService;
+		};
+		5345A1EEFE017DB9B4115F58A409FB3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		545F311E1D354F9E92CED14E691B8B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39ECD579BA06A9D774BDFEB9D3378766;
+			remoteInfo = APOpenSSL;
+		};
+		557F79496C6F4D55E33BFC03EFC6CCE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4863D9B7AB289E489DD574863D709C93;
+			remoteInfo = UTDID;
+		};
+		58F9E52D0CA947F4C9A06B7BDBCA5A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB30AD74A30509D9CB8266B586949315;
+			remoteInfo = MPNebulaSDKPlugins;
+		};
+		5E2DA7210490FC8374598287F82A55C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		5FDE7A7A1915B0012067A787EA256489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8BA55E004B191523EA6CE00DCCCFE5;
+			remoteInfo = NebulaSDK;
+		};
+		6112EB265F273CFC4A4ABDB622EFCCD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C51F9A10CAFB4A8C188B3B0F303B1E6;
+			remoteInfo = AutoTracker;
+		};
+		62CAE58449E502A1DBF328C074DDDD94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A4BBEADEBB30F08F42712C005FC889;
+			remoteInfo = MPMssAdapter;
+		};
+		6A093A46F976261536896641A6326BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		6B2BBA6AA575CF12D65DAD2EF0D62233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F3119507D72F6A7C4DB6C1759C5859;
+			remoteInfo = MASSProxy;
+		};
+		6B4F5742F1604422FAE601F0CEA6E295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D;
+			remoteInfo = MPDataCenter;
+		};
+		6BA1B352CDB3876250F7E14FE6BF935A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F681679473EBD02A4B9B3EDFD8ABD7E;
+			remoteInfo = APMobileNetwork;
+		};
+		6BF24FEEF1540B66FAD5425DF9220C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39ECD579BA06A9D774BDFEB9D3378766;
+			remoteInfo = APOpenSSL;
+		};
+		70DC3C45B872CA6093B2A34A41D4836D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C51F9A10CAFB4A8C188B3B0F303B1E6;
+			remoteInfo = AutoTracker;
+		};
+		7540DE16E8D658871206B27026225A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		75E1639697108BCE902FB83670810A0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D75D3FE2958E92FF142D4A8780CEC1F;
+			remoteInfo = AntUI;
+		};
+		76A0E63154F0449B9D360E2989E40242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D1DDF6BCD57BDBE6A10ED5DA249091;
+			remoteInfo = SecurityGuardSDK;
+		};
+		7AD3894CF5CD5DA344C6694975DC8B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		7EB8E4CEB4B27E87C99D67E0B1D1B92F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D;
+			remoteInfo = MPDataCenter;
+		};
+		7EBFEBA9E6810DD2B11B79028E823555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBE67085BF26D5B8C3FB1D37A9F63F;
+			remoteInfo = APProtocolBuffers;
+		};
+		84E7659D8593A9E1817DB1DF3DE8040A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A1F73DCC5D385DA2A118ACA5832339;
+			remoteInfo = MPPerformance;
+		};
+		8D7323112638C55FB99F57955C042C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B48D62752D2D0EF4748D1195E9C71D;
+			remoteInfo = NebulaAppManager;
+		};
+		8FC837B07950EFE3284D2B74129CA19B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F681679473EBD02A4B9B3EDFD8ABD7E;
+			remoteInfo = APMobileNetwork;
+		};
+		90F173EA5276BB2BB1D6D93C51BDF436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F681679473EBD02A4B9B3EDFD8ABD7E;
+			remoteInfo = APMobileNetwork;
+		};
+		93266CA46D45C82F3F73BB47BE0364CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECFB72C0FD8D5CA63B11441F3F5DC28;
+			remoteInfo = APLog;
+		};
+		96D90252ACA86E4209143FB963E127BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D1DDF6BCD57BDBE6A10ED5DA249091;
+			remoteInfo = SecurityGuardSDK;
+		};
+		98D61E6789D443380C3EAB77C4F7125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C0793E71794591177BAD8423AAD22CC;
+			remoteInfo = TianYan;
+		};
+		99F862670E06D818B2A6426984A3281F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C51F9A10CAFB4A8C188B3B0F303B1E6;
+			remoteInfo = AutoTracker;
+		};
+		9AFE65F6A23F2AD7BC4EF10DA0E124D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECFB72C0FD8D5CA63B11441F3F5DC28;
+			remoteInfo = APLog;
+		};
+		9BA3F4FEB20E2630AE14E5AA26DF5E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECFB72C0FD8D5CA63B11441F3F5DC28;
+			remoteInfo = APLog;
+		};
+		A27E5C0078979A69518D2512C0C2720C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8BA55E004B191523EA6CE00DCCCFE5;
+			remoteInfo = NebulaSDK;
+		};
+		AF4281EDCFA32E9B8614D772F8F733D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE230D4C28C24CAD34258B7AE582A017;
+			remoteInfo = NebulaPoseidon;
+		};
+		B1E6773FBC8825CF34C0C66406D205D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C0793E71794591177BAD8423AAD22CC;
+			remoteInfo = TianYan;
+		};
+		B206E3B2879FAF4DE99FB909853BDDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919AE78568B8AD28C02F03C100FA8817;
+			remoteInfo = MASSChannel;
+		};
+		B4E98162806ABA8D5D8CA379938BD2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8BA55E004B191523EA6CE00DCCCFE5;
+			remoteInfo = NebulaSDK;
+		};
+		B5B3B0AEA2F3ABB5852B4F7C1DA84092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		B7D21180C7913EBBEC30295046E08979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DE4DA431FBE7F319A482B38AF986F2;
+			remoteInfo = MPMpaaSService;
+		};
+		BF3A79A8CE494EEA98D494CCA5A692FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5E24F1AE687090EEEF5E44729524A4;
+			remoteInfo = NebulaLogging;
+		};
+		C3254F2DCC0CE3E24EAF84F8CD69FE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D188B9E0804B99089890F3FFC060B9E;
+			remoteInfo = APLongLinkService;
+		};
+		C479F35312EB5BF1F5F0353611CA1391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECFB72C0FD8D5CA63B11441F3F5DC28;
+			remoteInfo = APLog;
+		};
+		C73E44A1888ED4F2C1A1FED72F878AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE1C91A6DE116F1D0CF2922C2448972;
+			remoteInfo = MPNebulaAdapter;
+		};
+		CA0C501B58E75DB915A556444B34F1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE230D4C28C24CAD34258B7AE582A017;
+			remoteInfo = NebulaPoseidon;
+		};
+		CAE8CC3FEAE30096A180C217F313F11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECFB72C0FD8D5CA63B11441F3F5DC28;
+			remoteInfo = APLog;
+		};
+		CC20F03D647D722CB8EACDDF93763008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4863D9B7AB289E489DD574863D709C93;
+			remoteInfo = UTDID;
+		};
+		D32E6BB7261F71E0CB7713C1B24BAE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBE67085BF26D5B8C3FB1D37A9F63F;
+			remoteInfo = APProtocolBuffers;
+		};
+		D48128076CA603AC73F3874AB5C37631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D188B9E0804B99089890F3FFC060B9E;
+			remoteInfo = APLongLinkService;
+		};
+		D7BBF48ED87E829B6AA9B3C899470FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECFB72C0FD8D5CA63B11441F3F5DC28;
+			remoteInfo = APLog;
+		};
+		D918D7E661B54CCD236284E5DB414A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D;
+			remoteInfo = MPDataCenter;
+		};
+		DBC987363E39A8BECC99A94C2D54BE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8BA55E004B191523EA6CE00DCCCFE5;
+			remoteInfo = NebulaSDK;
+		};
+		DF5F91951199C8F4943A156193AAA329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		E093E35F0AC8AFC48047C99418BF113A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C5855DA7FBCFD8ADC4465F0AB67A2DE;
+			remoteInfo = MPMasAdapter;
+		};
+		E51D3A5D41B40BC73BCAF6FC7A8573CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5E24F1AE687090EEEF5E44729524A4;
+			remoteInfo = NebulaLogging;
+		};
+		E69BE701474C1DC2803C096BC867F129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8BA55E004B191523EA6CE00DCCCFE5;
+			remoteInfo = NebulaSDK;
+		};
+		E6E6AE49CC2ADF799F45B3BC514BB14A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		E8170AAC2A3AF8B43AE4394E7988A55E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F681679473EBD02A4B9B3EDFD8ABD7E;
+			remoteInfo = APMobileNetwork;
+		};
+		EBAF524B72A58E2AB0169AA877743882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		ED3F2253C2A2D69E7FA87F17144B742E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991C7EE517BFA39A3287D96134C359F1;
+			remoteInfo = APCrashReporter;
+		};
+		ED7E887412533ED4E546D508DF7D008C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57433549F767E1704B104B50C7423BA;
+			remoteInfo = NebulamPaaSBiz;
+		};
+		F01BDF4DE1374BD73FD6FDE3464F1368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D;
+			remoteInfo = MPDataCenter;
+		};
+		F17521018D383B85CA0189770D549E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14DBE92CC5799BDD360618FAF1E0D4E;
+			remoteInfo = APRemoteLogging;
+		};
+		F31CA8171F41712D1F1B2014EE1B3283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DE4DA431FBE7F319A482B38AF986F2;
+			remoteInfo = MPMpaaSService;
+		};
+		F7E2649E50992436BE7ACF68463EEBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		F90EEEB4FE4452EE6C361EB515886414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919AE78568B8AD28C02F03C100FA8817;
+			remoteInfo = MASSChannel;
+		};
+		FB8C5D1169F151F65B06589AEF9D5C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEECCE27D73ABE1213B8CEC95D941FBE;
+			remoteInfo = mPaas;
+		};
+		FBA30D39FC2BB396E514F5C7C5BC4BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4863D9B7AB289E489DD574863D709C93;
+			remoteInfo = UTDID;
+		};
+		FD701C94AFAAD448F907BF3BD3592899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB087232C163BE713EA34868BD29643;
+			remoteInfo = APWebImage;
+		};
+		FEBE1AF80AA4D4F91D2418FC1C13E860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A02864533E64BC00D260DCE9A3D8907;
+			remoteInfo = APMobileFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D5512E298CB4E4FBC0FED80EDF2647 /* NebulamPaaSBiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulamPaaSBiz.release.xcconfig; sourceTree = "<group>"; };
+		0273C84D309E4C7A6FD6E10D6769A9E0 /* APCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APCommonUI.release.xcconfig; sourceTree = "<group>"; };
+		0CEEAFF8D3F331E55F3422500E2E83D2 /* MPCustomPresetApps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MPCustomPresetApps.bundle; path = MPNebulaAdapter.framework/MPCustomPresetApps.bundle; sourceTree = "<group>"; };
+		0EED2835CC1F1DF3081458F716D8D677 /* MPDataCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPDataCenter.debug.xcconfig; sourceTree = "<group>"; };
+		0F497BEC88FF809F9CBD3FBE4867F388 /* MPCustomPlugins.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MPCustomPlugins.bundle; path = MPNebulaAdapter.framework/MPCustomPlugins.bundle; sourceTree = "<group>"; };
+		1295A9C17BBE890C12900AF25FC5680E /* APOpenSSL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APOpenSSL.debug.xcconfig; sourceTree = "<group>"; };
+		13068A6A824FAB56A8D499313DED5B6B /* APLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APLog.framework; sourceTree = "<group>"; };
+		13B72E33CECE28D5771D709AEC88E641 /* APCrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APCrashReporter.debug.xcconfig; sourceTree = "<group>"; };
+		1435BAA974CAA8BF711B9EFC91BCBF5E /* MASSProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASSProxy.debug.xcconfig; sourceTree = "<group>"; };
+		152098C17455FB8544CDF1E644DFE80E /* APLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APLog.debug.xcconfig; sourceTree = "<group>"; };
+		190F10AE0D2BAF316C9A14434FE2A828 /* MPNebulaSDKPlugins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPNebulaSDKPlugins.release.xcconfig; sourceTree = "<group>"; };
+		1939DFABF5912DA9A5519B2184F8535B /* MPMssAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMssAdapter.release.xcconfig; sourceTree = "<group>"; };
+		1B6DE3531B09371B079C7B289850D8D7 /* MPNebulaAdapter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MPNebulaAdapter.bundle; path = MPNebulaAdapter.framework/MPNebulaAdapter.bundle; sourceTree = "<group>"; };
+		20555E558AEC8549C179943F4D68E9DA /* UTDID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UTDID.release.xcconfig; sourceTree = "<group>"; };
+		21D0591AC2D73FACC7FD0145A3DB8E69 /* MPMasAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPMasAdapter.framework; sourceTree = "<group>"; };
+		22D9D9A03C40C09DEF650B021DC62011 /* Pods_podTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_podTest.framework; path = "Pods-podTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27263ACBE18F9C8EC20E47709D280A27 /* MPNebulaAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPNebulaAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		2785CEF2A0DCCF68F91F2B316EA7CA30 /* AutoTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoTracker.debug.xcconfig; sourceTree = "<group>"; };
+		29F9A40656DDFA240F074345E419B397 /* NebulamPaaSBiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulamPaaSBiz.debug.xcconfig; sourceTree = "<group>"; };
+		2DAEAD3594B91C582688CD9C8A8AEE4C /* APLongLinkService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APLongLinkService.release.xcconfig; sourceTree = "<group>"; };
+		2FAB59A04921BBC3820C19DFB200A4E4 /* NebulaPoseidon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaPoseidon.debug.xcconfig; sourceTree = "<group>"; };
+		3070B4D9B8897FEEF995C56D242AD9FA /* APProtocolBuffers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APProtocolBuffers.debug.xcconfig; sourceTree = "<group>"; };
+		360A20D3D2CA0A83E9B40E12367765C5 /* MPDataCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPDataCenter.framework; sourceTree = "<group>"; };
+		36B3C3937B1FFD2A034EEDC10DDEFFA3 /* MASSProxy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASSProxy.framework; sourceTree = "<group>"; };
+		36F575FE53D3392A24D9E9B0940D69CB /* APCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APCommonUI.debug.xcconfig; sourceTree = "<group>"; };
+		3A666E0880ACD29549C4316B7648D0FD /* NebulaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaSDK.debug.xcconfig; sourceTree = "<group>"; };
+		3DCBA240EFE8118D3895FD553A9E78B1 /* NebulaLogging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaLogging.debug.xcconfig; sourceTree = "<group>"; };
+		3E3E0C57BB5830612E67553C09DC3FC9 /* Pods-podTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podTest.modulemap"; sourceTree = "<group>"; };
+		3F6F574FB6E22A04C520394068C73E13 /* AntUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntUI.debug.xcconfig; sourceTree = "<group>"; };
+		3F88B997FD40F67FAF55F155FB32C227 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = "<group>"; };
+		4060A809C1E642A1BFE511C2171ACD12 /* NebulaLogging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaLogging.release.xcconfig; sourceTree = "<group>"; };
+		40EFDC737C58058B01267A226387B46D /* AutoTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AutoTracker.framework; sourceTree = "<group>"; };
+		42306254999A97EF43E33A2A62336EDD /* MASSProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASSProxy.release.xcconfig; sourceTree = "<group>"; };
+		45262469FCC2303153EC27C8CBCA2BD5 /* Pods-podTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTest-Info.plist"; sourceTree = "<group>"; };
+		4715FC4E57A47561595276917FF33C1E /* NebulaAppManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaAppManager.release.xcconfig; sourceTree = "<group>"; };
+		4BC88131FD334486A3F5E523A0C57A2C /* APSecurityUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APSecurityUtility.release.xcconfig; sourceTree = "<group>"; };
+		55D91FEC5A1E40662E70172109202C27 /* NebulaSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NebulaSDK.bundle; path = NebulaSDK.framework/NebulaSDK.bundle; sourceTree = "<group>"; };
+		56D8342C6D0BEF4B6D83CACC4A9CF109 /* Pods-podTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5756B1665A618D2ACCE1DD7163D74A61 /* MASSChannel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASSChannel.debug.xcconfig; sourceTree = "<group>"; };
+		5A6F546CEC33AFD1D8150343BD829BC3 /* APLongLinkService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APLongLinkService.debug.xcconfig; sourceTree = "<group>"; };
+		5D339FEFA0106A173F28668D34AD3433 /* APSecurityUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APSecurityUtility.framework; sourceTree = "<group>"; };
+		600857708F979F6404F006199AE29BD1 /* MPPerformance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPPerformance.framework; sourceTree = "<group>"; };
+		62505C9EE23A29EFBC40DDBFBE49FD1A /* Pods-podTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podTest-umbrella.h"; sourceTree = "<group>"; };
+		65612335C885B0CF395EA27ACD9D6CDD /* APMobileNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APMobileNetwork.release.xcconfig; sourceTree = "<group>"; };
+		65ABEDEB5B68C3AE0470B4C39C2209CA /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		67F3133B1442769A80B66FA6DFBC5677 /* TianYan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TianYan.release.xcconfig; sourceTree = "<group>"; };
+		6AD1154A1FF883BA3523145B5026990D /* NebulaLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NebulaLogging.framework; sourceTree = "<group>"; };
+		6B119AF35FEAE6A65F5CD82FDB77A87E /* MASSChannel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASSChannel.framework; sourceTree = "<group>"; };
+		6B7B8EC41C1F4855A1BB8E52BAF06D4E /* NebulaAppManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NebulaAppManager.bundle; path = NebulaAppManager.framework/NebulaAppManager.bundle; sourceTree = "<group>"; };
+		6DA8912EDCFE8723C93E3E880CC60116 /* APRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APRemoteLogging.framework; sourceTree = "<group>"; };
+		6E1E1013FBBC7A5243437B653A5CA8F8 /* NebulaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NebulaSDK.framework; sourceTree = "<group>"; };
+		6E79F99E85393C3BCDAC0E058D5D1360 /* Pods-podTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTest.release.xcconfig"; sourceTree = "<group>"; };
+		7251683EB8AAF394B7ECD557CC3D8DA6 /* Pods-podTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73E3E8A9EACA7783685D3727735E764B /* MPPerformance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPPerformance.release.xcconfig; sourceTree = "<group>"; };
+		752B411C7024A72C019D065684639A4E /* NebulaLogging.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NebulaLogging.bundle; path = NebulaLogging.framework/NebulaLogging.bundle; sourceTree = "<group>"; };
+		7590CB1A4BA49513FB37C5F41221ADA1 /* mPaas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mPaas.debug.xcconfig; sourceTree = "<group>"; };
+		75B9CDBA4273502C568293A435ACE736 /* APOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APOpenSSL.framework; sourceTree = "<group>"; };
+		772AB75F27CD96BB49C730EB47726A41 /* MPDataCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPDataCenter.release.xcconfig; sourceTree = "<group>"; };
+		7964D2210261947D4E1C09A410A5F6F8 /* APLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APLog.release.xcconfig; sourceTree = "<group>"; };
+		7B5FCC832F0447A1ED50D597DDD4EDB4 /* APRemoteLogging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APRemoteLogging.release.xcconfig; sourceTree = "<group>"; };
+		7BE61DEA6C8B7A32C6D9E19EC9C8151E /* AntUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AntUI.framework; sourceTree = "<group>"; };
+		80622106B5C6412AFEDF46F75D7D1216 /* MPNebulaSDKPlugins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPNebulaSDKPlugins.debug.xcconfig; sourceTree = "<group>"; };
+		81FA0632C3139F7D5C3A35235A7BC5DF /* NebulaPoseidon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaPoseidon.release.xcconfig; sourceTree = "<group>"; };
+		868ECC20DED384B3FEE1AB073EEDC6EA /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		875C227162098DB6CE5CFB536AAAE52D /* APProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APProtocolBuffers.framework; sourceTree = "<group>"; };
+		895E2CAAEB5C2689C101A96F14FAB3B2 /* mPaas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mPaas.release.xcconfig; sourceTree = "<group>"; };
+		8F745D99305F74BD4774690307E28274 /* MPPerformance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPPerformance.debug.xcconfig; sourceTree = "<group>"; };
+		9209AC3C1850DB74B0C89D18877708E6 /* AntUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntUI.release.xcconfig; sourceTree = "<group>"; };
+		92FE4F0692E362CDFC3B609600BD8E58 /* APRemoteLogging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APRemoteLogging.debug.xcconfig; sourceTree = "<group>"; };
+		9A11DA2A2AECB3F0F60D4BC4C686A63E /* APCommonUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APCommonUI.framework; sourceTree = "<group>"; };
+		9A4344E7848D204B8FBDEA68230D4A80 /* APCrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APCrashReporter.release.xcconfig; sourceTree = "<group>"; };
+		9B02193756B5BCACB059337CCC9660A6 /* NebulaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaSDK.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7907D4F673017141CE4360F98C2ACC /* MPMasAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMasAdapter.release.xcconfig; sourceTree = "<group>"; };
+		9FD404F6A17EA8FC5904510E8A15C9AB /* MPMgsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPMgsAdapter.framework; sourceTree = "<group>"; };
+		A12741245433E0E24E9F1462CA8C77EA /* MPMssAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPMssAdapter.framework; sourceTree = "<group>"; };
+		A1A67EFF240949229C6EE416A237AFD3 /* AutoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoTracker.release.xcconfig; sourceTree = "<group>"; };
+		A525C49B34FEA8D0C733F1062B084E3A /* APOpenSSL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APOpenSSL.release.xcconfig; sourceTree = "<group>"; };
+		A541D086C896AB641198A1F2F667BD66 /* NebulaPoseidon.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NebulaPoseidon.bundle; path = NebulaSDK.framework/NebulaPoseidon.bundle; sourceTree = "<group>"; };
+		A5A781BEEC645C2C2064B3090CBC4271 /* APMobileNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APMobileNetwork.framework; sourceTree = "<group>"; };
+		A834620810B2DED7575622AED6BCA13B /* mPaas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mPaas.framework; sourceTree = "<group>"; };
+		A89624B155C8E80D098F05DC2C27667A /* MPMgsAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMgsAdapter.release.xcconfig; sourceTree = "<group>"; };
+		A944345FC8E1BC42D185DBCB2C69656E /* SecurityGuardSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SecurityGuardSDK.debug.xcconfig; sourceTree = "<group>"; };
+		AB3659D3814BC87B46C99BFF8EDE6738 /* Pods-podTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-podTest-resources.sh"; sourceTree = "<group>"; };
+		ABBBF1E6121049E33DBEDF04A57FE9F6 /* MPMssAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMssAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		AC6570511DE098B6D9776A31B5421B2D /* MPMasAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMasAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		B3027ADD2EB7EBEFEEB2BE179A7D1858 /* APCommonUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APCommonUI.bundle; path = AntUI.framework/APCommonUI.bundle; sourceTree = "<group>"; };
+		B6B7BC1A7BD8B901A896440B071DCFA5 /* APWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APWebImage.debug.xcconfig; sourceTree = "<group>"; };
+		B6C89ACAA9AA1E0B32AD07579A053C92 /* APProtocolBuffers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APProtocolBuffers.release.xcconfig; sourceTree = "<group>"; };
+		B90991FFFC86A71035D5D714E5DB008F /* MPMpaaSService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMpaaSService.debug.xcconfig; sourceTree = "<group>"; };
+		C143F4E6525071F08667B33497E40608 /* UTDID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UTDID.debug.xcconfig; sourceTree = "<group>"; };
+		C2750916F31F8214B7D44D245821B728 /* MPNebulaSDKPlugins.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MPNebulaSDKPlugins.bundle; path = MPNebulaSDKPlugins.framework/MPNebulaSDKPlugins.bundle; sourceTree = "<group>"; };
+		C33AAF5388572DDAEB52B66FEDC1CC36 /* MPNebulaAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPNebulaAdapter.release.xcconfig; sourceTree = "<group>"; };
+		C6B0FF6B89017594AA29E3C74666DDDA /* APWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APWebImage.framework; sourceTree = "<group>"; };
+		C6C3C109699C1C778BDD6D5621E922F5 /* TianYan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TianYan.debug.xcconfig; sourceTree = "<group>"; };
+		C8A93476BAE6C162BD1C992183CFB0AF /* NebulaAppManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NebulaAppManager.debug.xcconfig; sourceTree = "<group>"; };
+		C8F87988B03FA52A4903160151632DCC /* MPMgsAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMgsAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		CAD744BBF008110E2ECF5E7968B31372 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
+		CB5537C47DD831BBC64B3ADEC36E0D73 /* MPMpaaSService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMpaaSService.release.xcconfig; sourceTree = "<group>"; };
+		CB958667A6D16540CE1017ADE84D0FB3 /* APSecurityUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APSecurityUtility.debug.xcconfig; sourceTree = "<group>"; };
+		CCABC7683565A0A3B79ECBD0DA06BEFD /* APCrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APCrashReporter.framework; sourceTree = "<group>"; };
+		CD366CB1BE5FB7DD17AD111C6016084A /* NebulaAppManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NebulaAppManager.bundle; path = NebulaSDK.framework/NebulaAppManager.bundle; sourceTree = "<group>"; };
+		D11AA5A3B8493108524FA682D26FFB55 /* APMobileNetwork.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APMobileNetwork.bundle; path = APMobileNetwork.framework/APMobileNetwork.bundle; sourceTree = "<group>"; };
+		D1C5230B7C9C6235D47108FDB78049A4 /* MPMpaaSService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPMpaaSService.framework; sourceTree = "<group>"; };
+		D336B8A43B1BF8A85EAC805B3528D5F3 /* Pods-podTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podTest-dummy.m"; sourceTree = "<group>"; };
+		D62BBE1B91211B9F3F30F6913428483C /* SecurityGuardSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SecurityGuardSDK.release.xcconfig; sourceTree = "<group>"; };
+		D63CEEB6C0C71FCF0D33F8878413A9DA /* APMobileFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APMobileFramework.framework; sourceTree = "<group>"; };
+		D87BA0718929A025BC05EC8133C16A90 /* MASSChannel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASSChannel.release.xcconfig; sourceTree = "<group>"; };
+		DAF22BF9033E9C1643B36A663EB098CA /* APMobileFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APMobileFramework.debug.xcconfig; sourceTree = "<group>"; };
+		DCBE91661EFEF0DFD03BC9D8EE1AD55F /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGMain.framework; sourceTree = "<group>"; };
+		DDE01C21BA7246CD73B8A331584C0E6D /* NebulaPoseidon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NebulaPoseidon.framework; sourceTree = "<group>"; };
+		DF739D3914AFC3E3EFF66A6613DFF805 /* Pods-podTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E4EA144E8AA29B379A91E4E5CD3BCAA3 /* APWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APWebImage.release.xcconfig; sourceTree = "<group>"; };
+		E5AD3253EFC496C4D04648B801DF7F80 /* MPNebulaAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPNebulaAdapter.framework; sourceTree = "<group>"; };
+		E9585499C752F05651E83E2DB7AE9404 /* APMobileFramework.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APMobileFramework.bundle; path = APMobileFramework.framework/APMobileFramework.bundle; sourceTree = "<group>"; };
+		E9AADC8F73D92812A838439FCC59107A /* NebulamPaaSBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NebulamPaaSBiz.framework; sourceTree = "<group>"; };
+		EB56C8CB8B18B24B144624B3BC780A15 /* MPNebulaSDKPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPNebulaSDKPlugins.framework; sourceTree = "<group>"; };
+		F04632D8E3D35FBE0457CE92BEBC6E29 /* APLongLinkService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APLongLinkService.framework; sourceTree = "<group>"; };
+		F137925EC292C36C1735ED3A1925A779 /* TianYan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TianYan.framework; sourceTree = "<group>"; };
+		F5320C08D69714877416F4BA95501F8B /* NebulaAppManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NebulaAppManager.framework; sourceTree = "<group>"; };
+		F57D88DE1025CEF2EEBB7B5B3C978AE9 /* APMobileNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APMobileNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		F85C93813F7FB7D2BDE315AF7299D28D /* APMobileFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APMobileFramework.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D4078A0A1DF1FD66FB66D15B4F751C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C301F60E6821746914B1D1DBD7D4971B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BBA920A86480233ADDE46C3FA09C57 /* MPNebulaSDKPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				CF99B2A862DBFCC7F65346A31723A9A8 /* Frameworks */,
+				8AA2B2316EDCB6FE74E64B2D8BC9F1BF /* Resources */,
+				CEBD2B7E0ED3EC8AC904F92C41350D22 /* Support Files */,
+			);
+			name = MPNebulaSDKPlugins;
+			path = MPNebulaSDKPlugins;
+			sourceTree = "<group>";
+		};
+		04033D2E11B11C9087A6D0BF74DCE2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE01C21BA7246CD73B8A331584C0E6D /* NebulaPoseidon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09169F5B0F20CCD5DECECEE3A22494D7 /* MPMgsAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				49A36518338CFFC58005A9AEE664D335 /* Frameworks */,
+				5CA67830C8BE06F7C229E87DB17D0F3C /* Support Files */,
+			);
+			name = MPMgsAdapter;
+			path = MPMgsAdapter;
+			sourceTree = "<group>";
+		};
+		0A5EE5FC60B1DE20B99C36066A64CFE1 /* MPMasAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				68652C2F2B65A2B152EE93CB33D99852 /* Frameworks */,
+				2C608BE1EEEA48B20DAACA591E6B5691 /* Support Files */,
+			);
+			name = MPMasAdapter;
+			path = MPMasAdapter;
+			sourceTree = "<group>";
+		};
+		1930857788C3251BE086B6D3B2BCE4C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D339FEFA0106A173F28668D34AD3433 /* APSecurityUtility.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20FB64AB7E6A00E720FF94A318347895 /* APCrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DE65C45EA6F9ECCF50F19F7DD1FD5 /* Frameworks */,
+				87EC6A475A6D266BE5218FBB4FB67870 /* Support Files */,
+			);
+			name = APCrashReporter;
+			path = APCrashReporter;
+			sourceTree = "<group>";
+		};
+		235FBD8B55DFFE137BE07450A1547BC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2785CEF2A0DCCF68F91F2B316EA7CA30 /* AutoTracker.debug.xcconfig */,
+				A1A67EFF240949229C6EE416A237AFD3 /* AutoTracker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AutoTracker";
+			sourceTree = "<group>";
+		};
+		24AD95653C16A0269DA4E2C033151DE5 /* APSecurityUtility */ = {
+			isa = PBXGroup;
+			children = (
+				1930857788C3251BE086B6D3B2BCE4C7 /* Frameworks */,
+				462C3606C576B6F37B78C7945DF123AB /* Support Files */,
+			);
+			name = APSecurityUtility;
+			path = APSecurityUtility;
+			sourceTree = "<group>";
+		};
+		286007A67296E531E1DBD6DC8722DE2E /* SecurityGuardSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F9F7C43D55B58F41A2171DD71BDD7A92 /* Frameworks */,
+				7A41990B5349A43887277EB320D9F6D0 /* Support Files */,
+			);
+			name = SecurityGuardSDK;
+			path = SecurityGuardSDK;
+			sourceTree = "<group>";
+		};
+		2A309AB9B59265CE75883EE78C019A58 /* APMobileFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D312966AC9E426A058271BBA5FED7422 /* Frameworks */,
+				95FC20548BE851F4D7C8D7174E63EB3D /* Resources */,
+				2AC0C410B4B9C65F9015A0D9B0B65022 /* Support Files */,
+			);
+			name = APMobileFramework;
+			path = APMobileFramework;
+			sourceTree = "<group>";
+		};
+		2AC0C410B4B9C65F9015A0D9B0B65022 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF22BF9033E9C1643B36A663EB098CA /* APMobileFramework.debug.xcconfig */,
+				F85C93813F7FB7D2BDE315AF7299D28D /* APMobileFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APMobileFramework";
+			sourceTree = "<group>";
+		};
+		2BF4E6AE0D61FA8AF01518064EDC8B12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBA240EFE8118D3895FD553A9E78B1 /* NebulaLogging.debug.xcconfig */,
+				4060A809C1E642A1BFE511C2171ACD12 /* NebulaLogging.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NebulaLogging";
+			sourceTree = "<group>";
+		};
+		2C01D0F23B484EF166141A8103B57DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE61DEA6C8B7A32C6D9E19EC9C8151E /* AntUI.framework */,
+				CAD744BBF008110E2ECF5E7968B31372 /* Masonry.framework */,
+				3F88B997FD40F67FAF55F155FB32C227 /* MBProgressHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C608BE1EEEA48B20DAACA591E6B5691 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6570511DE098B6D9776A31B5421B2D /* MPMasAdapter.debug.xcconfig */,
+				9E7907D4F673017141CE4360F98C2ACC /* MPMasAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPMasAdapter";
+			sourceTree = "<group>";
+		};
+		2C8DE65C45EA6F9ECCF50F19F7DD1FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCABC7683565A0A3B79ECBD0DA06BEFD /* APCrashReporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF0BC1646EDCAA2595C0EFC73C52865 /* APLog */ = {
+			isa = PBXGroup;
+			children = (
+				623C9C4237E657ED14D04949ADDAA84F /* Frameworks */,
+				766B6DB0E81AE6BAB221107FBB2B15D5 /* Support Files */,
+			);
+			name = APLog;
+			path = APLog;
+			sourceTree = "<group>";
+		};
+		2D567D7D5F5DAEE10DF709B4857A1D29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F04632D8E3D35FBE0457CE92BEBC6E29 /* APLongLinkService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30E6568DCF9A6DD0452BF3B20F904705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5320C08D69714877416F4BA95501F8B /* NebulaAppManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		321E309DDDBE20B477367F186983033C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B119AF35FEAE6A65F5CD82FDB77A87E /* MASSChannel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3221E8BC906DBA118BF2AAB1193DA808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9730D756FCDBCDFA16A77AC4C9AAFE4C /* AntUI */,
+				BD227344E6C836BD02AD899778CAED0F /* APCommonUI */,
+				20FB64AB7E6A00E720FF94A318347895 /* APCrashReporter */,
+				2CF0BC1646EDCAA2595C0EFC73C52865 /* APLog */,
+				9A68B7E98CD8EC4FE2690DFBA7FCBD7F /* APLongLinkService */,
+				2A309AB9B59265CE75883EE78C019A58 /* APMobileFramework */,
+				4ABDFD327A4B3BB499893CDCBD40DC8B /* APMobileNetwork */,
+				C7D4D3D4D85D382E59C73D7FAE74BF37 /* APOpenSSL */,
+				98A6F10F88DE01FFD79EED9B4F63128D /* APProtocolBuffers */,
+				FE0D97CF6959646A9F90EB1DD0C37F33 /* APRemoteLogging */,
+				24AD95653C16A0269DA4E2C033151DE5 /* APSecurityUtility */,
+				6548E7FB2433B111EEA352999EC66F3E /* APWebImage */,
+				8AC8FEB1756BAF263B172237BCAE4B38 /* AutoTracker */,
+				83209B89B24424718E276F207A1601CA /* MASSChannel */,
+				3B7DEA11353D9504B60B953E97038E9B /* MASSProxy */,
+				ACCF078B9641ECDF804E670246E54DD0 /* mPaas */,
+				D1E4E1FEEF6EBD97F8B43A47DA1B2AA8 /* MPDataCenter */,
+				0A5EE5FC60B1DE20B99C36066A64CFE1 /* MPMasAdapter */,
+				09169F5B0F20CCD5DECECEE3A22494D7 /* MPMgsAdapter */,
+				FF42102BC012D9139FA1BA0E0C7C2502 /* MPMpaaSService */,
+				4F06A49771E89FD04D319BBBE1808A2D /* MPMssAdapter */,
+				DAD5748D358BE1B4A3E24969AC0BECA1 /* MPNebulaAdapter */,
+				02BBA920A86480233ADDE46C3FA09C57 /* MPNebulaSDKPlugins */,
+				874B51C24A6E86997F50E3625D594B32 /* MPPerformance */,
+				AAD045D793F7CCD63244EE1393FD5BF2 /* NebulaAppManager */,
+				3CC93BD0ED5EA7FBBF9EEE586DF64F66 /* NebulaLogging */,
+				BF3D86323712E69E311E5DF82FF3D436 /* NebulamPaaSBiz */,
+				BEB21937AB96F9AF83EE81ED11D170C9 /* NebulaPoseidon */,
+				885F37911C250AC292CEC45C262F26B0 /* NebulaSDK */,
+				286007A67296E531E1DBD6DC8722DE2E /* SecurityGuardSDK */,
+				6599E7F9F5A78009F054735C0C370E9F /* TianYan */,
+				77E3A544C205136E3C38D2F66D7A0782 /* UTDID */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B7DEA11353D9504B60B953E97038E9B /* MASSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				892DE9A1A88FEF2AAA400687AAFCBB20 /* Frameworks */,
+				6B2CF8CA74D54CF0BDEE403DECEF87AA /* Support Files */,
+			);
+			name = MASSProxy;
+			path = MASSProxy;
+			sourceTree = "<group>";
+		};
+		3B9592320CB0DF5F4C5D94E9ADD704AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3070B4D9B8897FEEF995C56D242AD9FA /* APProtocolBuffers.debug.xcconfig */,
+				B6C89ACAA9AA1E0B32AD07579A053C92 /* APProtocolBuffers.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APProtocolBuffers";
+			sourceTree = "<group>";
+		};
+		3BFD12516B28A0CB13AADE8B6822FAEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3C109699C1C778BDD6D5621E922F5 /* TianYan.debug.xcconfig */,
+				67F3133B1442769A80B66FA6DFBC5677 /* TianYan.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TianYan";
+			sourceTree = "<group>";
+		};
+		3CC93BD0ED5EA7FBBF9EEE586DF64F66 /* NebulaLogging */ = {
+			isa = PBXGroup;
+			children = (
+				AC97CA558018E9994E21435D188A5F09 /* Frameworks */,
+				DF60243D67D6C2491172EB44852F2507 /* Resources */,
+				2BF4E6AE0D61FA8AF01518064EDC8B12 /* Support Files */,
+			);
+			name = NebulaLogging;
+			path = NebulaLogging;
+			sourceTree = "<group>";
+		};
+		408ACA12FE50152C782D3655851E44CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F57D88DE1025CEF2EEBB7B5B3C978AE9 /* APMobileNetwork.debug.xcconfig */,
+				65612335C885B0CF395EA27ACD9D6CDD /* APMobileNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APMobileNetwork";
+			sourceTree = "<group>";
+		};
+		41A70598F68833A6277C7500F2D6882D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B7BC1A7BD8B901A896440B071DCFA5 /* APWebImage.debug.xcconfig */,
+				E4EA144E8AA29B379A91E4E5CD3BCAA3 /* APWebImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APWebImage";
+			sourceTree = "<group>";
+		};
+		45DF5297BB4557F4102542AA940AE4C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F137925EC292C36C1735ED3A1925A779 /* TianYan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		462C3606C576B6F37B78C7945DF123AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB958667A6D16540CE1017ADE84D0FB3 /* APSecurityUtility.debug.xcconfig */,
+				4BC88131FD334486A3F5E523A0C57A2C /* APSecurityUtility.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APSecurityUtility";
+			sourceTree = "<group>";
+		};
+		49A36518338CFFC58005A9AEE664D335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD404F6A17EA8FC5904510E8A15C9AB /* MPMgsAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ABDFD327A4B3BB499893CDCBD40DC8B /* APMobileNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				F88E2D8790F84321B931654E124FA29A /* Frameworks */,
+				DC9793D185E9C905CBD7034769B17FE6 /* Resources */,
+				408ACA12FE50152C782D3655851E44CE /* Support Files */,
+			);
+			name = APMobileNetwork;
+			path = APMobileNetwork;
+			sourceTree = "<group>";
+		};
+		4F06A49771E89FD04D319BBBE1808A2D /* MPMssAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				A64D70B24C4DA27E9418192391B101B1 /* Frameworks */,
+				B4DEEF4BD4E61601C45B4DCC4CD7B238 /* Support Files */,
+			);
+			name = MPMssAdapter;
+			path = MPMssAdapter;
+			sourceTree = "<group>";
+		};
+		53BA590EAFFFCBE22CF8B55CB1947922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40EFDC737C58058B01267A226387B46D /* AutoTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54F4A8B51E99749C7F350E6D56387155 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5756B1665A618D2ACCE1DD7163D74A61 /* MASSChannel.debug.xcconfig */,
+				D87BA0718929A025BC05EC8133C16A90 /* MASSChannel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MASSChannel";
+			sourceTree = "<group>";
+		};
+		556C5BB36348CD06995CCA684F598499 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5230B7C9C6235D47108FDB78049A4 /* MPMpaaSService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B61B4E5DC948D87111298136A4E65C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD366CB1BE5FB7DD17AD111C6016084A /* NebulaAppManager.bundle */,
+				A541D086C896AB641198A1F2F667BD66 /* NebulaPoseidon.bundle */,
+				55D91FEC5A1E40662E70172109202C27 /* NebulaSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CA67830C8BE06F7C229E87DB17D0F3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8F87988B03FA52A4903160151632DCC /* MPMgsAdapter.debug.xcconfig */,
+				A89624B155C8E80D098F05DC2C27667A /* MPMgsAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPMgsAdapter";
+			sourceTree = "<group>";
+		};
+		5D8995E67C755A5ED2278CE003F9E4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD3253EFC496C4D04648B801DF7F80 /* MPNebulaAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		623C9C4237E657ED14D04949ADDAA84F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13068A6A824FAB56A8D499313DED5B6B /* APLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62B1939CC904C4168A42AC14EE2A5C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AADC8F73D92812A838439FCC59107A /* NebulamPaaSBiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6548E7FB2433B111EEA352999EC66F3E /* APWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				A88A75DB4B72DD7C36297F0CAB0F6AE9 /* Frameworks */,
+				41A70598F68833A6277C7500F2D6882D /* Support Files */,
+			);
+			name = APWebImage;
+			path = APWebImage;
+			sourceTree = "<group>";
+		};
+		6599E7F9F5A78009F054735C0C370E9F /* TianYan */ = {
+			isa = PBXGroup;
+			children = (
+				45DF5297BB4557F4102542AA940AE4C4 /* Frameworks */,
+				3BFD12516B28A0CB13AADE8B6822FAEA /* Support Files */,
+			);
+			name = TianYan;
+			path = TianYan;
+			sourceTree = "<group>";
+		};
+		68652C2F2B65A2B152EE93CB33D99852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D0591AC2D73FACC7FD0145A3DB8E69 /* MPMasAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69B8B0014D3D74F0C556C1EB727F3494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600857708F979F6404F006199AE29BD1 /* MPPerformance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B2CF8CA74D54CF0BDEE403DECEF87AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1435BAA974CAA8BF711B9EFC91BCBF5E /* MASSProxy.debug.xcconfig */,
+				42306254999A97EF43E33A2A62336EDD /* MASSProxy.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MASSProxy";
+			sourceTree = "<group>";
+		};
+		766B6DB0E81AE6BAB221107FBB2B15D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				152098C17455FB8544CDF1E644DFE80E /* APLog.debug.xcconfig */,
+				7964D2210261947D4E1C09A410A5F6F8 /* APLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APLog";
+			sourceTree = "<group>";
+		};
+		77E3A544C205136E3C38D2F66D7A0782 /* UTDID */ = {
+			isa = PBXGroup;
+			children = (
+				AE4161851CB997FC2561AFBBE4DB22DB /* Frameworks */,
+				B2AC06DB49EE36D3BC2F4F7A926458E9 /* Support Files */,
+			);
+			name = UTDID;
+			path = UTDID;
+			sourceTree = "<group>";
+		};
+		7A352D5795D4F4CB1A83E4271D1EED2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B9CDBA4273502C568293A435ACE736 /* APOpenSSL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A41990B5349A43887277EB320D9F6D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A944345FC8E1BC42D185DBCB2C69656E /* SecurityGuardSDK.debug.xcconfig */,
+				D62BBE1B91211B9F3F30F6913428483C /* SecurityGuardSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SecurityGuardSDK";
+			sourceTree = "<group>";
+		};
+		7E5B6EC204611BD2D4139F0BB13E877A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3027ADD2EB7EBEFEEB2BE179A7D1858 /* APCommonUI.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		83209B89B24424718E276F207A1601CA /* MASSChannel */ = {
+			isa = PBXGroup;
+			children = (
+				321E309DDDBE20B477367F186983033C /* Frameworks */,
+				54F4A8B51E99749C7F350E6D56387155 /* Support Files */,
+			);
+			name = MASSChannel;
+			path = MASSChannel;
+			sourceTree = "<group>";
+		};
+		83474942177EF7995092BF1B09BD17C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B7B8EC41C1F4855A1BB8E52BAF06D4E /* NebulaAppManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		854686E20A74163B6D8AABF7D73F52DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360A20D3D2CA0A83E9B40E12367765C5 /* MPDataCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874B51C24A6E86997F50E3625D594B32 /* MPPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				69B8B0014D3D74F0C556C1EB727F3494 /* Frameworks */,
+				EA92D73E20F72D8116FBC5E4C4860E52 /* Support Files */,
+			);
+			name = MPPerformance;
+			path = MPPerformance;
+			sourceTree = "<group>";
+		};
+		87EC6A475A6D266BE5218FBB4FB67870 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13B72E33CECE28D5771D709AEC88E641 /* APCrashReporter.debug.xcconfig */,
+				9A4344E7848D204B8FBDEA68230D4A80 /* APCrashReporter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APCrashReporter";
+			sourceTree = "<group>";
+		};
+		885F37911C250AC292CEC45C262F26B0 /* NebulaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC5F8C1A1DEA2F98F3CF5EA84B8EA6 /* Frameworks */,
+				5B61B4E5DC948D87111298136A4E65C9 /* Resources */,
+				CD2338DA6F3700B48D4079A0FCBC7705 /* Support Files */,
+			);
+			name = NebulaSDK;
+			path = NebulaSDK;
+			sourceTree = "<group>";
+		};
+		892DE9A1A88FEF2AAA400687AAFCBB20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36B3C3937B1FFD2A034EEDC10DDEFFA3 /* MASSProxy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AA2B2316EDCB6FE74E64B2D8BC9F1BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2750916F31F8214B7D44D245821B728 /* MPNebulaSDKPlugins.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8AC8FEB1756BAF263B172237BCAE4B38 /* AutoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				53BA590EAFFFCBE22CF8B55CB1947922 /* Frameworks */,
+				235FBD8B55DFFE137BE07450A1547BC5 /* Support Files */,
+			);
+			name = AutoTracker;
+			path = AutoTracker;
+			sourceTree = "<group>";
+		};
+		9022FA0815B8C32942687B991647AD0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A834620810B2DED7575622AED6BCA13B /* mPaas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91878F5D03387237223A705CCE969372 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F575FE53D3392A24D9E9B0940D69CB /* APCommonUI.debug.xcconfig */,
+				0273C84D309E4C7A6FD6E10D6769A9E0 /* APCommonUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APCommonUI";
+			sourceTree = "<group>";
+		};
+		95FC20548BE851F4D7C8D7174E63EB3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9585499C752F05651E83E2DB7AE9404 /* APMobileFramework.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9730D756FCDBCDFA16A77AC4C9AAFE4C /* AntUI */ = {
+			isa = PBXGroup;
+			children = (
+				2C01D0F23B484EF166141A8103B57DBD /* Frameworks */,
+				7E5B6EC204611BD2D4139F0BB13E877A /* Resources */,
+				E26CB351A2C6517CD07076D36D83F4A8 /* Support Files */,
+			);
+			name = AntUI;
+			path = AntUI;
+			sourceTree = "<group>";
+		};
+		9835942D98545E250C4A2CA41C1A0512 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F497BEC88FF809F9CBD3FBE4867F388 /* MPCustomPlugins.bundle */,
+				0CEEAFF8D3F331E55F3422500E2E83D2 /* MPCustomPresetApps.bundle */,
+				1B6DE3531B09371B079C7B289850D8D7 /* MPNebulaAdapter.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98A6F10F88DE01FFD79EED9B4F63128D /* APProtocolBuffers */ = {
+			isa = PBXGroup;
+			children = (
+				FAED9511561754FB0EB878DF2BB69CF7 /* Frameworks */,
+				3B9592320CB0DF5F4C5D94E9ADD704AC /* Support Files */,
+			);
+			name = APProtocolBuffers;
+			path = APProtocolBuffers;
+			sourceTree = "<group>";
+		};
+		9A68B7E98CD8EC4FE2690DFBA7FCBD7F /* APLongLinkService */ = {
+			isa = PBXGroup;
+			children = (
+				2D567D7D5F5DAEE10DF709B4857A1D29 /* Frameworks */,
+				9CC88ECA7468EC19E2BFDC597DADD39F /* Support Files */,
+			);
+			name = APLongLinkService;
+			path = APLongLinkService;
+			sourceTree = "<group>";
+		};
+		9B0C01D7AB29DCEC3FCA32659ABE2ABC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FE4F0692E362CDFC3B609600BD8E58 /* APRemoteLogging.debug.xcconfig */,
+				7B5FCC832F0447A1ED50D597DDD4EDB4 /* APRemoteLogging.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APRemoteLogging";
+			sourceTree = "<group>";
+		};
+		9CC88ECA7468EC19E2BFDC597DADD39F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6F546CEC33AFD1D8150343BD829BC3 /* APLongLinkService.debug.xcconfig */,
+				2DAEAD3594B91C582688CD9C8A8AEE4C /* APLongLinkService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APLongLinkService";
+			sourceTree = "<group>";
+		};
+		9CEEEC4D2EFFF0FBEB5CFFD1E8A7FCF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29F9A40656DDFA240F074345E419B397 /* NebulamPaaSBiz.debug.xcconfig */,
+				01D5512E298CB4E4FBC0FED80EDF2647 /* NebulamPaaSBiz.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NebulamPaaSBiz";
+			sourceTree = "<group>";
+		};
+		A64D70B24C4DA27E9418192391B101B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12741245433E0E24E9F1462CA8C77EA /* MPMssAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A88A75DB4B72DD7C36297F0CAB0F6AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0FF6B89017594AA29E3C74666DDDA /* APWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAD045D793F7CCD63244EE1393FD5BF2 /* NebulaAppManager */ = {
+			isa = PBXGroup;
+			children = (
+				30E6568DCF9A6DD0452BF3B20F904705 /* Frameworks */,
+				83474942177EF7995092BF1B09BD17C8 /* Resources */,
+				D7FF74134601F78100966687BF688801 /* Support Files */,
+			);
+			name = NebulaAppManager;
+			path = NebulaAppManager;
+			sourceTree = "<group>";
+		};
+		AC97CA558018E9994E21435D188A5F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AD1154A1FF883BA3523145B5026990D /* NebulaLogging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACCF078B9641ECDF804E670246E54DD0 /* mPaas */ = {
+			isa = PBXGroup;
+			children = (
+				9022FA0815B8C32942687B991647AD0E /* Frameworks */,
+				BBC5C039370AD5AFF9299C6C0FB3E47A /* Support Files */,
+			);
+			name = mPaas;
+			path = mPaas;
+			sourceTree = "<group>";
+		};
+		AE4161851CB997FC2561AFBBE4DB22DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868ECC20DED384B3FEE1AB073EEDC6EA /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF74346A8749E5A814E2A02690C9EA84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B994C5C2A5A3B1253C4B499BEC3F8A2B /* Pods-podTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1326922695871BB529F94ECA741A57B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB59A04921BBC3820C19DFB200A4E4 /* NebulaPoseidon.debug.xcconfig */,
+				81FA0632C3139F7D5C3A35235A7BC5DF /* NebulaPoseidon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NebulaPoseidon";
+			sourceTree = "<group>";
+		};
+		B2AC06DB49EE36D3BC2F4F7A926458E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C143F4E6525071F08667B33497E40608 /* UTDID.debug.xcconfig */,
+				20555E558AEC8549C179943F4D68E9DA /* UTDID.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UTDID";
+			sourceTree = "<group>";
+		};
+		B4DEEF4BD4E61601C45B4DCC4CD7B238 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBBF1E6121049E33DBEDF04A57FE9F6 /* MPMssAdapter.debug.xcconfig */,
+				1939DFABF5912DA9A5519B2184F8535B /* MPMssAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPMssAdapter";
+			sourceTree = "<group>";
+		};
+		B994C5C2A5A3B1253C4B499BEC3F8A2B /* Pods-podTest */ = {
+			isa = PBXGroup;
+			children = (
+				3E3E0C57BB5830612E67553C09DC3FC9 /* Pods-podTest.modulemap */,
+				56D8342C6D0BEF4B6D83CACC4A9CF109 /* Pods-podTest-acknowledgements.markdown */,
+				7251683EB8AAF394B7ECD557CC3D8DA6 /* Pods-podTest-acknowledgements.plist */,
+				D336B8A43B1BF8A85EAC805B3528D5F3 /* Pods-podTest-dummy.m */,
+				45262469FCC2303153EC27C8CBCA2BD5 /* Pods-podTest-Info.plist */,
+				AB3659D3814BC87B46C99BFF8EDE6738 /* Pods-podTest-resources.sh */,
+				62505C9EE23A29EFBC40DDBFBE49FD1A /* Pods-podTest-umbrella.h */,
+				DF739D3914AFC3E3EFF66A6613DFF805 /* Pods-podTest.debug.xcconfig */,
+				6E79F99E85393C3BCDAC0E058D5D1360 /* Pods-podTest.release.xcconfig */,
+			);
+			name = "Pods-podTest";
+			path = "Target Support Files/Pods-podTest";
+			sourceTree = "<group>";
+		};
+		BBC5C039370AD5AFF9299C6C0FB3E47A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7590CB1A4BA49513FB37C5F41221ADA1 /* mPaas.debug.xcconfig */,
+				895E2CAAEB5C2689C101A96F14FAB3B2 /* mPaas.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mPaas";
+			sourceTree = "<group>";
+		};
+		BD227344E6C836BD02AD899778CAED0F /* APCommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				DAB15824994C3C51956C1F0EB64B1D03 /* Frameworks */,
+				91878F5D03387237223A705CCE969372 /* Support Files */,
+			);
+			name = APCommonUI;
+			path = APCommonUI;
+			sourceTree = "<group>";
+		};
+		BEB21937AB96F9AF83EE81ED11D170C9 /* NebulaPoseidon */ = {
+			isa = PBXGroup;
+			children = (
+				04033D2E11B11C9087A6D0BF74DCE2E4 /* Frameworks */,
+				B1326922695871BB529F94ECA741A57B /* Support Files */,
+			);
+			name = NebulaPoseidon;
+			path = NebulaPoseidon;
+			sourceTree = "<group>";
+		};
+		BF3D86323712E69E311E5DF82FF3D436 /* NebulamPaaSBiz */ = {
+			isa = PBXGroup;
+			children = (
+				62B1939CC904C4168A42AC14EE2A5C2A /* Frameworks */,
+				9CEEEC4D2EFFF0FBEB5CFFD1E8A7FCF0 /* Support Files */,
+			);
+			name = NebulamPaaSBiz;
+			path = NebulamPaaSBiz;
+			sourceTree = "<group>";
+		};
+		C4FDC030A9F6EC30633AE81298833A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D9D9A03C40C09DEF650B021DC62011 /* Pods_podTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D4D3D4D85D382E59C73D7FAE74BF37 /* APOpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				7A352D5795D4F4CB1A83E4271D1EED2A /* Frameworks */,
+				E6299FD3EA3991482B100D5E0730D07D /* Support Files */,
+			);
+			name = APOpenSSL;
+			path = APOpenSSL;
+			sourceTree = "<group>";
+		};
+		CD2338DA6F3700B48D4079A0FCBC7705 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A666E0880ACD29549C4316B7648D0FD /* NebulaSDK.debug.xcconfig */,
+				9B02193756B5BCACB059337CCC9660A6 /* NebulaSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NebulaSDK";
+			sourceTree = "<group>";
+		};
+		CEBD2B7E0ED3EC8AC904F92C41350D22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80622106B5C6412AFEDF46F75D7D1216 /* MPNebulaSDKPlugins.debug.xcconfig */,
+				190F10AE0D2BAF316C9A14434FE2A828 /* MPNebulaSDKPlugins.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPNebulaSDKPlugins";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3221E8BC906DBA118BF2AAB1193DA808 /* Pods */,
+				C4FDC030A9F6EC30633AE81298833A2C /* Products */,
+				AF74346A8749E5A814E2A02690C9EA84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF99B2A862DBFCC7F65346A31723A9A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB56C8CB8B18B24B144624B3BC780A15 /* MPNebulaSDKPlugins.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1E4E1FEEF6EBD97F8B43A47DA1B2AA8 /* MPDataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				854686E20A74163B6D8AABF7D73F52DB /* Frameworks */,
+				E7964CE861E58F9C0386393C6A59E16F /* Support Files */,
+			);
+			name = MPDataCenter;
+			path = MPDataCenter;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D312966AC9E426A058271BBA5FED7422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D63CEEB6C0C71FCF0D33F8878413A9DA /* APMobileFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7FF74134601F78100966687BF688801 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A93476BAE6C162BD1C992183CFB0AF /* NebulaAppManager.debug.xcconfig */,
+				4715FC4E57A47561595276917FF33C1E /* NebulaAppManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NebulaAppManager";
+			sourceTree = "<group>";
+		};
+		DAB15824994C3C51956C1F0EB64B1D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A11DA2A2AECB3F0F60D4BC4C686A63E /* APCommonUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD5748D358BE1B4A3E24969AC0BECA1 /* MPNebulaAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				5D8995E67C755A5ED2278CE003F9E4C3 /* Frameworks */,
+				9835942D98545E250C4A2CA41C1A0512 /* Resources */,
+				F8C18756CBDEEAB00E4E6170A7763AAA /* Support Files */,
+			);
+			name = MPNebulaAdapter;
+			path = MPNebulaAdapter;
+			sourceTree = "<group>";
+		};
+		DC9793D185E9C905CBD7034769B17FE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D11AA5A3B8493108524FA682D26FFB55 /* APMobileNetwork.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF60243D67D6C2491172EB44852F2507 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				752B411C7024A72C019D065684639A4E /* NebulaLogging.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E26CB351A2C6517CD07076D36D83F4A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F574FB6E22A04C520394068C73E13 /* AntUI.debug.xcconfig */,
+				9209AC3C1850DB74B0C89D18877708E6 /* AntUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AntUI";
+			sourceTree = "<group>";
+		};
+		E2898940078384DE6F95DEF941B3E685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA8912EDCFE8723C93E3E880CC60116 /* APRemoteLogging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6299FD3EA3991482B100D5E0730D07D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1295A9C17BBE890C12900AF25FC5680E /* APOpenSSL.debug.xcconfig */,
+				A525C49B34FEA8D0C733F1062B084E3A /* APOpenSSL.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APOpenSSL";
+			sourceTree = "<group>";
+		};
+		E7964CE861E58F9C0386393C6A59E16F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EED2835CC1F1DF3081458F716D8D677 /* MPDataCenter.debug.xcconfig */,
+				772AB75F27CD96BB49C730EB47726A41 /* MPDataCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPDataCenter";
+			sourceTree = "<group>";
+		};
+		EA92D73E20F72D8116FBC5E4C4860E52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F745D99305F74BD4774690307E28274 /* MPPerformance.debug.xcconfig */,
+				73E3E8A9EACA7783685D3727735E764B /* MPPerformance.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPPerformance";
+			sourceTree = "<group>";
+		};
+		F7FC5F8C1A1DEA2F98F3CF5EA84B8EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E1E1013FBBC7A5243437B653A5CA8F8 /* NebulaSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F88E2D8790F84321B931654E124FA29A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A781BEEC645C2C2064B3090CBC4271 /* APMobileNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C18756CBDEEAB00E4E6170A7763AAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27263ACBE18F9C8EC20E47709D280A27 /* MPNebulaAdapter.debug.xcconfig */,
+				C33AAF5388572DDAEB52B66FEDC1CC36 /* MPNebulaAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPNebulaAdapter";
+			sourceTree = "<group>";
+		};
+		F9F7C43D55B58F41A2171DD71BDD7A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65ABEDEB5B68C3AE0470B4C39C2209CA /* SecurityGuardSDK.framework */,
+				DCBE91661EFEF0DFD03BC9D8EE1AD55F /* SGMain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FADC7ED772AD23FB7206326FAA510836 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B90991FFFC86A71035D5D714E5DB008F /* MPMpaaSService.debug.xcconfig */,
+				CB5537C47DD831BBC64B3ADEC36E0D73 /* MPMpaaSService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPMpaaSService";
+			sourceTree = "<group>";
+		};
+		FAED9511561754FB0EB878DF2BB69CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				875C227162098DB6CE5CFB536AAAE52D /* APProtocolBuffers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE0D97CF6959646A9F90EB1DD0C37F33 /* APRemoteLogging */ = {
+			isa = PBXGroup;
+			children = (
+				E2898940078384DE6F95DEF941B3E685 /* Frameworks */,
+				9B0C01D7AB29DCEC3FCA32659ABE2ABC /* Support Files */,
+			);
+			name = APRemoteLogging;
+			path = APRemoteLogging;
+			sourceTree = "<group>";
+		};
+		FF42102BC012D9139FA1BA0E0C7C2502 /* MPMpaaSService */ = {
+			isa = PBXGroup;
+			children = (
+				556C5BB36348CD06995CCA684F598499 /* Frameworks */,
+				FADC7ED772AD23FB7206326FAA510836 /* Support Files */,
+			);
+			name = MPMpaaSService;
+			path = MPMpaaSService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24F9B8C127CA201F2602F5375705BB2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A6E734A3A3343ED0D33AFAF9B042EB /* Pods-podTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DE73399815DEA0A171BD0D932AEACF36 /* Pods-podTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD260E1AD282A79D8569C881B11316 /* Build configuration list for PBXNativeTarget "Pods-podTest" */;
+			buildPhases = (
+				24F9B8C127CA201F2602F5375705BB2A /* Headers */,
+				6062FA5BBD05D3AC0BC62AD5225F3DC6 /* Sources */,
+				F2D4078A0A1DF1FD66FB66D15B4F751C /* Frameworks */,
+				D06AEE467CF610E6EF81F3720FD887D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BCEDC8364D7C352923B3020CC82FD2 /* PBXTargetDependency */,
+				5529183E189DF11C01F55C4965C268AC /* PBXTargetDependency */,
+				8E9A5FA7E12FBEA2E55C8AEF44F81E21 /* PBXTargetDependency */,
+				41FEC3FDCE9A208CCD7826B850CCD4CB /* PBXTargetDependency */,
+				B2F613D8500A9CA4D04FA3B996C7841E /* PBXTargetDependency */,
+				FA869C147A0FA1FFAE33EE90E596D5DA /* PBXTargetDependency */,
+				D5CA4941EC6A2A81632CB4CC901D46BB /* PBXTargetDependency */,
+				983E981C74F18924D481B4EEE3DD989A /* PBXTargetDependency */,
+				E017592ADFDE2C3E8149E68C2C981851 /* PBXTargetDependency */,
+				C09409BA9E6AB65D6FD384DD7383335F /* PBXTargetDependency */,
+				B43D6B5AC1FBA84705B6469071620E50 /* PBXTargetDependency */,
+				98440D8A2974E41188597DFEE98F8EF0 /* PBXTargetDependency */,
+				5BA358249E49AED42864A884E8D46F40 /* PBXTargetDependency */,
+				3514106983135F8AB44A269597C81652 /* PBXTargetDependency */,
+				BA357D66A0E451B84648261701B1009C /* PBXTargetDependency */,
+				160B464BFF48A1A8D237A1A4DFFE8EF9 /* PBXTargetDependency */,
+				8AA39A2BD61BCE8B137C0084175CA432 /* PBXTargetDependency */,
+				C5F21DFF5E63623EEB378C7AE953E867 /* PBXTargetDependency */,
+				4174915A9B9C6BBB9074EDC261FC3A26 /* PBXTargetDependency */,
+				15CD1E4FFC65CACF8ACA04645BD7FE4A /* PBXTargetDependency */,
+				A9AD6927C54C25FE8E38CFA94FC451E3 /* PBXTargetDependency */,
+				882C1F866D307C81BD207B2ED77EBC4D /* PBXTargetDependency */,
+				5298EF7B7D513A7D149E9EF37D38F521 /* PBXTargetDependency */,
+				3AAEFED6A6646ECC8D895D7DD5A0DF18 /* PBXTargetDependency */,
+				70E64637E8272030A01F33BD172C9B1B /* PBXTargetDependency */,
+				7EB30AF8AA22C501840AEC356F8B80E3 /* PBXTargetDependency */,
+				689986B6EF06F0BB09AD5410DF14FF7E /* PBXTargetDependency */,
+				4DFF1AE80A62A93AC1417FA09FA04D1E /* PBXTargetDependency */,
+				C82374139328EDA8109999374B5CF12D /* PBXTargetDependency */,
+				F76D7B32D2C5EBC67986DF46A41A9DFB /* PBXTargetDependency */,
+				5CBE14C31F212A8A66AB55A136E9E896 /* PBXTargetDependency */,
+				4742677B48263F6D63BCA2D4451A8E0A /* PBXTargetDependency */,
+			);
+			name = "Pods-podTest";
+			productName = "Pods-podTest";
+			productReference = 22D9D9A03C40C09DEF650B021DC62011 /* Pods_podTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C4FDC030A9F6EC30633AE81298833A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D75D3FE2958E92FF142D4A8780CEC1F /* AntUI */,
+				4C4F5FEB43DB3E714E44934C20971D06 /* APCommonUI */,
+				991C7EE517BFA39A3287D96134C359F1 /* APCrashReporter */,
+				0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */,
+				7D188B9E0804B99089890F3FFC060B9E /* APLongLinkService */,
+				9A02864533E64BC00D260DCE9A3D8907 /* APMobileFramework */,
+				0F681679473EBD02A4B9B3EDFD8ABD7E /* APMobileNetwork */,
+				39ECD579BA06A9D774BDFEB9D3378766 /* APOpenSSL */,
+				66EBE67085BF26D5B8C3FB1D37A9F63F /* APProtocolBuffers */,
+				C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */,
+				9E15CEBC5D012F3C10A0C64164AFE86D /* APSecurityUtility */,
+				0FB087232C163BE713EA34868BD29643 /* APWebImage */,
+				8C51F9A10CAFB4A8C188B3B0F303B1E6 /* AutoTracker */,
+				919AE78568B8AD28C02F03C100FA8817 /* MASSChannel */,
+				74F3119507D72F6A7C4DB6C1759C5859 /* MASSProxy */,
+				BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */,
+				8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D /* MPDataCenter */,
+				6C5855DA7FBCFD8ADC4465F0AB67A2DE /* MPMasAdapter */,
+				3A946CF13A30E70716A38FADA2F95E79 /* MPMgsAdapter */,
+				C7DE4DA431FBE7F319A482B38AF986F2 /* MPMpaaSService */,
+				B4A4BBEADEBB30F08F42712C005FC889 /* MPMssAdapter */,
+				EEE1C91A6DE116F1D0CF2922C2448972 /* MPNebulaAdapter */,
+				BB30AD74A30509D9CB8266B586949315 /* MPNebulaSDKPlugins */,
+				50A1F73DCC5D385DA2A118ACA5832339 /* MPPerformance */,
+				D5B48D62752D2D0EF4748D1195E9C71D /* NebulaAppManager */,
+				CF5E24F1AE687090EEEF5E44729524A4 /* NebulaLogging */,
+				B57433549F767E1704B104B50C7423BA /* NebulamPaaSBiz */,
+				AE230D4C28C24CAD34258B7AE582A017 /* NebulaPoseidon */,
+				1F8BA55E004B191523EA6CE00DCCCFE5 /* NebulaSDK */,
+				DE73399815DEA0A171BD0D932AEACF36 /* Pods-podTest */,
+				94D1DDF6BCD57BDBE6A10ED5DA249091 /* SecurityGuardSDK */,
+				0C0793E71794591177BAD8423AAD22CC /* TianYan */,
+				4863D9B7AB289E489DD574863D709C93 /* UTDID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06AEE467CF610E6EF81F3720FD887D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6062FA5BBD05D3AC0BC62AD5225F3DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A43C1706B73EDDC0A373E8F085000F7 /* Pods-podTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058C3BA75F5583E21C2194F34FBDEF80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = 7AD3894CF5CD5DA344C6694975DC8B8D /* PBXContainerItemProxy */;
+		};
+		07A14711CC773D022251229BA11E2DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLog;
+			target = 0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */;
+			targetProxy = 9AFE65F6A23F2AD7BC4EF10DA0E124D9 /* PBXContainerItemProxy */;
+		};
+		07C808CBF3C998203AF012096CFEBB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaLogging;
+			target = CF5E24F1AE687090EEEF5E44729524A4 /* NebulaLogging */;
+			targetProxy = BF3A79A8CE494EEA98D494CCA5A692FA /* PBXContainerItemProxy */;
+		};
+		0C3BAD56B7C8DA41236442C2EAEB852E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UTDID;
+			target = 4863D9B7AB289E489DD574863D709C93 /* UTDID */;
+			targetProxy = 557F79496C6F4D55E33BFC03EFC6CCE0 /* PBXContainerItemProxy */;
+		};
+		0F2901367F3E54409DE665D3BD04D640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = E6E6AE49CC2ADF799F45B3BC514BB14A /* PBXContainerItemProxy */;
+		};
+		135710F3B3E32FE2D63FE3E1855A3EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaAppManager;
+			target = D5B48D62752D2D0EF4748D1195E9C71D /* NebulaAppManager */;
+			targetProxy = 8D7323112638C55FB99F57955C042C29 /* PBXContainerItemProxy */;
+		};
+		15CD1E4FFC65CACF8ACA04645BD7FE4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPMssAdapter;
+			target = B4A4BBEADEBB30F08F42712C005FC889 /* MPMssAdapter */;
+			targetProxy = 62CAE58449E502A1DBF328C074DDDD94 /* PBXContainerItemProxy */;
+		};
+		160B464BFF48A1A8D237A1A4DFFE8EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPDataCenter;
+			target = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D /* MPDataCenter */;
+			targetProxy = 4C142F55E279512BDD5BD427B6B048EA /* PBXContainerItemProxy */;
+		};
+		1A9A5DA29463FE14847F182A01B0F982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APMobileNetwork;
+			target = 0F681679473EBD02A4B9B3EDFD8ABD7E /* APMobileNetwork */;
+			targetProxy = 8FC837B07950EFE3284D2B74129CA19B /* PBXContainerItemProxy */;
+		};
+		1B7AF2EE65D00C1DD3DF6206C7EFC315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SecurityGuardSDK;
+			target = 94D1DDF6BCD57BDBE6A10ED5DA249091 /* SecurityGuardSDK */;
+			targetProxy = 2C96055953A6551697B19574E400B302 /* PBXContainerItemProxy */;
+		};
+		21BCEDC8364D7C352923B3020CC82FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APCommonUI;
+			target = 4C4F5FEB43DB3E714E44934C20971D06 /* APCommonUI */;
+			targetProxy = 2EEEF8F7A82A04FB7B94F74FB3D3637A /* PBXContainerItemProxy */;
+		};
+		339AB5DB2DE82AD51FDB1E43E90D72F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPDataCenter;
+			target = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D /* MPDataCenter */;
+			targetProxy = 6B4F5742F1604422FAE601F0CEA6E295 /* PBXContainerItemProxy */;
+		};
+		3514106983135F8AB44A269597C81652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASSChannel;
+			target = 919AE78568B8AD28C02F03C100FA8817 /* MASSChannel */;
+			targetProxy = F90EEEB4FE4452EE6C361EB515886414 /* PBXContainerItemProxy */;
+		};
+		36947BA4F01BB0E3823927242BD7C091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoTracker;
+			target = 8C51F9A10CAFB4A8C188B3B0F303B1E6 /* AutoTracker */;
+			targetProxy = 99F862670E06D818B2A6426984A3281F /* PBXContainerItemProxy */;
+		};
+		3AAEFED6A6646ECC8D895D7DD5A0DF18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaAppManager;
+			target = D5B48D62752D2D0EF4748D1195E9C71D /* NebulaAppManager */;
+			targetProxy = 40A06580B5C76D0724628BEB3C1C5F14 /* PBXContainerItemProxy */;
+		};
+		4174915A9B9C6BBB9074EDC261FC3A26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPMpaaSService;
+			target = C7DE4DA431FBE7F319A482B38AF986F2 /* MPMpaaSService */;
+			targetProxy = F31CA8171F41712D1F1B2014EE1B3283 /* PBXContainerItemProxy */;
+		};
+		41FEC3FDCE9A208CCD7826B850CCD4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLongLinkService;
+			target = 7D188B9E0804B99089890F3FFC060B9E /* APLongLinkService */;
+			targetProxy = D48128076CA603AC73F3874AB5C37631 /* PBXContainerItemProxy */;
+		};
+		4742677B48263F6D63BCA2D4451A8E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = F7E2649E50992436BE7ACF68463EEBFA /* PBXContainerItemProxy */;
+		};
+		47D9C228F533ED87805C638CA1BC5B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = 42CE1BAC88EBABC11B5523D78A23EFC0 /* PBXContainerItemProxy */;
+		};
+		4CBA184DFB758E9C566E59209202509F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = EBAF524B72A58E2AB0169AA877743882 /* PBXContainerItemProxy */;
+		};
+		4DFF1AE80A62A93AC1417FA09FA04D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulamPaaSBiz;
+			target = B57433549F767E1704B104B50C7423BA /* NebulamPaaSBiz */;
+			targetProxy = 29841D8586B67DA74073039F53EB85CB /* PBXContainerItemProxy */;
+		};
+		5298EF7B7D513A7D149E9EF37D38F521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPPerformance;
+			target = 50A1F73DCC5D385DA2A118ACA5832339 /* MPPerformance */;
+			targetProxy = 2A3C8F1AD72368007D817C136FD6DB4E /* PBXContainerItemProxy */;
+		};
+		52998C4AB771A315FF2B6DB7146A647E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulamPaaSBiz;
+			target = B57433549F767E1704B104B50C7423BA /* NebulamPaaSBiz */;
+			targetProxy = ED7E887412533ED4E546D508DF7D008C /* PBXContainerItemProxy */;
+		};
+		54E94723363D76EF93FEC3C60B12F7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLongLinkService;
+			target = 7D188B9E0804B99089890F3FFC060B9E /* APLongLinkService */;
+			targetProxy = 4EA743A8901FAFD3B077CBE42C6F765D /* PBXContainerItemProxy */;
+		};
+		5529183E189DF11C01F55C4965C268AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APCrashReporter;
+			target = 991C7EE517BFA39A3287D96134C359F1 /* APCrashReporter */;
+			targetProxy = 16D422496A2DAAE3547B89BA01744DC1 /* PBXContainerItemProxy */;
+		};
+		5594A792B5DC0A55F75241D6160C913B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = 2D22D213EC6E72139F7B21D7ADAFDF90 /* PBXContainerItemProxy */;
+		};
+		563757489A0B8B51980F5DE75435D901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = 7540DE16E8D658871206B27026225A5E /* PBXContainerItemProxy */;
+		};
+		5A8283C20C8E041AECB068E172121297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = 5345A1EEFE017DB9B4115F58A409FB3F /* PBXContainerItemProxy */;
+		};
+		5BA358249E49AED42864A884E8D46F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoTracker;
+			target = 8C51F9A10CAFB4A8C188B3B0F303B1E6 /* AutoTracker */;
+			targetProxy = 6112EB265F273CFC4A4ABDB622EFCCD4 /* PBXContainerItemProxy */;
+		};
+		5CBE14C31F212A8A66AB55A136E9E896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UTDID;
+			target = 4863D9B7AB289E489DD574863D709C93 /* UTDID */;
+			targetProxy = CC20F03D647D722CB8EACDDF93763008 /* PBXContainerItemProxy */;
+		};
+		637B75608C1831C70E3A74A6C733BEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SecurityGuardSDK;
+			target = 94D1DDF6BCD57BDBE6A10ED5DA249091 /* SecurityGuardSDK */;
+			targetProxy = 76A0E63154F0449B9D360E2989E40242 /* PBXContainerItemProxy */;
+		};
+		689986B6EF06F0BB09AD5410DF14FF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaSDK;
+			target = 1F8BA55E004B191523EA6CE00DCCCFE5 /* NebulaSDK */;
+			targetProxy = B4E98162806ABA8D5D8CA379938BD2E1 /* PBXContainerItemProxy */;
+		};
+		69DC6FADA56D2F64D1BDD07BE01DDF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLog;
+			target = 0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */;
+			targetProxy = D7BBF48ED87E829B6AA9B3C899470FE4 /* PBXContainerItemProxy */;
+		};
+		6C0F48D6720B6162F1330D83B6A76274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASSChannel;
+			target = 919AE78568B8AD28C02F03C100FA8817 /* MASSChannel */;
+			targetProxy = 05DEB79795E6B156F10C215477AF4745 /* PBXContainerItemProxy */;
+		};
+		7060D1AACFC7314574A2B58D07CF0471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaLogging;
+			target = CF5E24F1AE687090EEEF5E44729524A4 /* NebulaLogging */;
+			targetProxy = 1A43CCCA4D517B239E2B248E3A215EAA /* PBXContainerItemProxy */;
+		};
+		70E64637E8272030A01F33BD172C9B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaLogging;
+			target = CF5E24F1AE687090EEEF5E44729524A4 /* NebulaLogging */;
+			targetProxy = E51D3A5D41B40BC73BCAF6FC7A8573CB /* PBXContainerItemProxy */;
+		};
+		71D37D9AEF2FF692CBADCCD4B0606A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AntUI;
+			target = 9D75D3FE2958E92FF142D4A8780CEC1F /* AntUI */;
+			targetProxy = 75E1639697108BCE902FB83670810A0E /* PBXContainerItemProxy */;
+		};
+		7800A2FD4CC63BDEC24C7487623EFD63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = 37C2CF6D3D300C09C5DAAB16F28AE431 /* PBXContainerItemProxy */;
+		};
+		7BCCC69D19E90B2DB388B17254A6C9D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaSDK;
+			target = 1F8BA55E004B191523EA6CE00DCCCFE5 /* NebulaSDK */;
+			targetProxy = 5FDE7A7A1915B0012067A787EA256489 /* PBXContainerItemProxy */;
+		};
+		7EB30AF8AA22C501840AEC356F8B80E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaPoseidon;
+			target = AE230D4C28C24CAD34258B7AE582A017 /* NebulaPoseidon */;
+			targetProxy = CA0C501B58E75DB915A556444B34F1BD /* PBXContainerItemProxy */;
+		};
+		8060B5F5BAE692181B9542537E493BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APWebImage;
+			target = 0FB087232C163BE713EA34868BD29643 /* APWebImage */;
+			targetProxy = FD701C94AFAAD448F907BF3BD3592899 /* PBXContainerItemProxy */;
+		};
+		83EFDF798926071A7C4EA70BF39800EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = 5E2DA7210490FC8374598287F82A55C6 /* PBXContainerItemProxy */;
+		};
+		85808E6321EB0AB872F9F988365A1EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaSDK;
+			target = 1F8BA55E004B191523EA6CE00DCCCFE5 /* NebulaSDK */;
+			targetProxy = DBC987363E39A8BECC99A94C2D54BE2F /* PBXContainerItemProxy */;
+		};
+		882C1F866D307C81BD207B2ED77EBC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPNebulaSDKPlugins;
+			target = BB30AD74A30509D9CB8266B586949315 /* MPNebulaSDKPlugins */;
+			targetProxy = 58F9E52D0CA947F4C9A06B7BDBCA5A1E /* PBXContainerItemProxy */;
+		};
+		8AA39A2BD61BCE8B137C0084175CA432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPMasAdapter;
+			target = 6C5855DA7FBCFD8ADC4465F0AB67A2DE /* MPMasAdapter */;
+			targetProxy = E093E35F0AC8AFC48047C99418BF113A /* PBXContainerItemProxy */;
+		};
+		8ACEEE911B657338A6EDE5B93BE5E385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = 35366111C1B75E52CDA2B4173035C448 /* PBXContainerItemProxy */;
+		};
+		8BC3166483048DA962BCD9A51D8BC1A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaAppManager;
+			target = D5B48D62752D2D0EF4748D1195E9C71D /* NebulaAppManager */;
+			targetProxy = 0DC9B7593786E11A6C7655DCEF9E30B1 /* PBXContainerItemProxy */;
+		};
+		8BF8DA050EC849EDF0AF27D8B2183DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaSDK;
+			target = 1F8BA55E004B191523EA6CE00DCCCFE5 /* NebulaSDK */;
+			targetProxy = A27E5C0078979A69518D2512C0C2720C /* PBXContainerItemProxy */;
+		};
+		8E9A5FA7E12FBEA2E55C8AEF44F81E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLog;
+			target = 0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */;
+			targetProxy = 9BA3F4FEB20E2630AE14E5AA26DF5E04 /* PBXContainerItemProxy */;
+		};
+		9363EAAC44D6CBC5FE55DDF1D3DA6B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASSChannel;
+			target = 919AE78568B8AD28C02F03C100FA8817 /* MASSChannel */;
+			targetProxy = B206E3B2879FAF4DE99FB909853BDDBC /* PBXContainerItemProxy */;
+		};
+		93B9CF570B0882F6BCC29C36528925CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoTracker;
+			target = 8C51F9A10CAFB4A8C188B3B0F303B1E6 /* AutoTracker */;
+			targetProxy = 70DC3C45B872CA6093B2A34A41D4836D /* PBXContainerItemProxy */;
+		};
+		966FDD2BE4D6DBB6F5B9FBE6EEC1A34E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APProtocolBuffers;
+			target = 66EBE67085BF26D5B8C3FB1D37A9F63F /* APProtocolBuffers */;
+			targetProxy = 203987FA0CC31D86C45D39612212FD3A /* PBXContainerItemProxy */;
+		};
+		97C8A76A740744F907396DB12B939F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = FB8C5D1169F151F65B06589AEF9D5C2B /* PBXContainerItemProxy */;
+		};
+		983E981C74F18924D481B4EEE3DD989A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APProtocolBuffers;
+			target = 66EBE67085BF26D5B8C3FB1D37A9F63F /* APProtocolBuffers */;
+			targetProxy = 7EBFEBA9E6810DD2B11B79028E823555 /* PBXContainerItemProxy */;
+		};
+		98440D8A2974E41188597DFEE98F8EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AntUI;
+			target = 9D75D3FE2958E92FF142D4A8780CEC1F /* AntUI */;
+			targetProxy = 2E09FA03881EB33B0448D737F8F418C5 /* PBXContainerItemProxy */;
+		};
+		98B869EC6C61EB1F242894FF1B1608A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APCrashReporter;
+			target = 991C7EE517BFA39A3287D96134C359F1 /* APCrashReporter */;
+			targetProxy = ED3F2253C2A2D69E7FA87F17144B742E /* PBXContainerItemProxy */;
+		};
+		99E79938AFA1F66C462A00E413EECFFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = B5B3B0AEA2F3ABB5852B4F7C1DA84092 /* PBXContainerItemProxy */;
+		};
+		9ABDDF81E692EE78920467C8F620D283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APMobileFramework;
+			target = 9A02864533E64BC00D260DCE9A3D8907 /* APMobileFramework */;
+			targetProxy = FEBE1AF80AA4D4F91D2418FC1C13E860 /* PBXContainerItemProxy */;
+		};
+		9C11B976C8BAB44B2C2BE347363833E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPDataCenter;
+			target = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D /* MPDataCenter */;
+			targetProxy = D918D7E661B54CCD236284E5DB414A18 /* PBXContainerItemProxy */;
+		};
+		9E66BA92A44BFC51A7691F7B7F8C8E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLog;
+			target = 0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */;
+			targetProxy = 93266CA46D45C82F3F73BB47BE0364CD /* PBXContainerItemProxy */;
+		};
+		A378443B4C9BE91977B5406BD1B3AC0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APProtocolBuffers;
+			target = 66EBE67085BF26D5B8C3FB1D37A9F63F /* APProtocolBuffers */;
+			targetProxy = D32E6BB7261F71E0CB7713C1B24BAE0D /* PBXContainerItemProxy */;
+		};
+		A42F6B4D505E5F37FA0347ECED880AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPDataCenter;
+			target = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D /* MPDataCenter */;
+			targetProxy = 7EB8E4CEB4B27E87C99D67E0B1D1B92F /* PBXContainerItemProxy */;
+		};
+		A76420DE029F495E0E3D1F1FEB8A8082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLog;
+			target = 0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */;
+			targetProxy = 21D2E0B773497F8F96B49983F3333E57 /* PBXContainerItemProxy */;
+		};
+		A85EFBD7B31F22D486EA502034189020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPPerformance;
+			target = 50A1F73DCC5D385DA2A118ACA5832339 /* MPPerformance */;
+			targetProxy = 84E7659D8593A9E1817DB1DF3DE8040A /* PBXContainerItemProxy */;
+		};
+		A9AD6927C54C25FE8E38CFA94FC451E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPNebulaAdapter;
+			target = EEE1C91A6DE116F1D0CF2922C2448972 /* MPNebulaAdapter */;
+			targetProxy = C73E44A1888ED4F2C1A1FED72F878AFE /* PBXContainerItemProxy */;
+		};
+		AC8533B29199A097D9BC1A4B6579479B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLog;
+			target = 0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */;
+			targetProxy = C479F35312EB5BF1F5F0353611CA1391 /* PBXContainerItemProxy */;
+		};
+		AD257D4DBFAAE25E06516A54416C6346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPMpaaSService;
+			target = C7DE4DA431FBE7F319A482B38AF986F2 /* MPMpaaSService */;
+			targetProxy = B7D21180C7913EBBEC30295046E08979 /* PBXContainerItemProxy */;
+		};
+		B030D15BB85690DCA90C079A5C67DC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APMobileNetwork;
+			target = 0F681679473EBD02A4B9B3EDFD8ABD7E /* APMobileNetwork */;
+			targetProxy = 6BA1B352CDB3876250F7E14FE6BF935A /* PBXContainerItemProxy */;
+		};
+		B0F02538C4196A832216F5A38377FCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APSecurityUtility;
+			target = 9E15CEBC5D012F3C10A0C64164AFE86D /* APSecurityUtility */;
+			targetProxy = 14663E0F69BCA84FAF4AED06DD03A07C /* PBXContainerItemProxy */;
+		};
+		B2F613D8500A9CA4D04FA3B996C7841E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APMobileFramework;
+			target = 9A02864533E64BC00D260DCE9A3D8907 /* APMobileFramework */;
+			targetProxy = 322BE2D32A5D2837C0388691C0BF5DB4 /* PBXContainerItemProxy */;
+		};
+		B43D6B5AC1FBA84705B6469071620E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APWebImage;
+			target = 0FB087232C163BE713EA34868BD29643 /* APWebImage */;
+			targetProxy = 2AF3F8C54951A5FF758E007DFC1291B2 /* PBXContainerItemProxy */;
+		};
+		BA357D66A0E451B84648261701B1009C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASSProxy;
+			target = 74F3119507D72F6A7C4DB6C1759C5859 /* MASSProxy */;
+			targetProxy = 6B2BBA6AA575CF12D65DAD2EF0D62233 /* PBXContainerItemProxy */;
+		};
+		BE8F45A63478098950C2C8F7C4F4A2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaPoseidon;
+			target = AE230D4C28C24CAD34258B7AE582A017 /* NebulaPoseidon */;
+			targetProxy = AF4281EDCFA32E9B8614D772F8F733D5 /* PBXContainerItemProxy */;
+		};
+		C09409BA9E6AB65D6FD384DD7383335F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APSecurityUtility;
+			target = 9E15CEBC5D012F3C10A0C64164AFE86D /* APSecurityUtility */;
+			targetProxy = 0941B09062317CFE86F7FAECBF8F7A48 /* PBXContainerItemProxy */;
+		};
+		C5F21DFF5E63623EEB378C7AE953E867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPMgsAdapter;
+			target = 3A946CF13A30E70716A38FADA2F95E79 /* MPMgsAdapter */;
+			targetProxy = 0CDA3A397FDB41464576A94FDF73B36F /* PBXContainerItemProxy */;
+		};
+		C7942B571B67B17A6B3AFCE372D087EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APMobileNetwork;
+			target = 0F681679473EBD02A4B9B3EDFD8ABD7E /* APMobileNetwork */;
+			targetProxy = 90F173EA5276BB2BB1D6D93C51BDF436 /* PBXContainerItemProxy */;
+		};
+		C82374139328EDA8109999374B5CF12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SecurityGuardSDK;
+			target = 94D1DDF6BCD57BDBE6A10ED5DA249091 /* SecurityGuardSDK */;
+			targetProxy = 96D90252ACA86E4209143FB963E127BB /* PBXContainerItemProxy */;
+		};
+		CA0EC1D6504CEF22E56F70F0A7029032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaSDK;
+			target = 1F8BA55E004B191523EA6CE00DCCCFE5 /* NebulaSDK */;
+			targetProxy = E69BE701474C1DC2803C096BC867F129 /* PBXContainerItemProxy */;
+		};
+		D5CA4941EC6A2A81632CB4CC901D46BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APOpenSSL;
+			target = 39ECD579BA06A9D774BDFEB9D3378766 /* APOpenSSL */;
+			targetProxy = 6BF24FEEF1540B66FAD5425DF9220C89 /* PBXContainerItemProxy */;
+		};
+		D6B9CA0775B8C4EBD40C95351D2BBFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = 0BD8CF8AD0470DEA509834D93A8D7834 /* PBXContainerItemProxy */;
+		};
+		D7A2B4141DF6FB63DA69D2D999D2974D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = 6A093A46F976261536896641A6326BDC /* PBXContainerItemProxy */;
+		};
+		D9847167104A6FC7695FE284BC6998D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLog;
+			target = 0ECFB72C0FD8D5CA63B11441F3F5DC28 /* APLog */;
+			targetProxy = CAE8CC3FEAE30096A180C217F313F11B /* PBXContainerItemProxy */;
+		};
+		DA51AB846650475E1B84AF57AEEBF6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APProtocolBuffers;
+			target = 66EBE67085BF26D5B8C3FB1D37A9F63F /* APProtocolBuffers */;
+			targetProxy = 09B1E33DAC1732C1CAC264B94AB9E872 /* PBXContainerItemProxy */;
+		};
+		DD5AD9600E321A6C386F264EDD9C219C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AntUI;
+			target = 9D75D3FE2958E92FF142D4A8780CEC1F /* AntUI */;
+			targetProxy = 2596DBD16158C92813C349EF31E39B88 /* PBXContainerItemProxy */;
+		};
+		DF4EBD984DCCCD425383F7F907365A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPDataCenter;
+			target = 8E57B53E6AEA6FDC3ACC3FAB3B0B1A2D /* MPDataCenter */;
+			targetProxy = F01BDF4DE1374BD73FD6FDE3464F1368 /* PBXContainerItemProxy */;
+		};
+		E017592ADFDE2C3E8149E68C2C981851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APRemoteLogging;
+			target = C14DBE92CC5799BDD360618FAF1E0D4E /* APRemoteLogging */;
+			targetProxy = F17521018D383B85CA0189770D549E14 /* PBXContainerItemProxy */;
+		};
+		E61FF3BADAC843A6FF3A5FEC20F63972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NebulaAppManager;
+			target = D5B48D62752D2D0EF4748D1195E9C71D /* NebulaAppManager */;
+			targetProxy = 39F95AC4D4CDBEEA3AE60431804DB48C /* PBXContainerItemProxy */;
+		};
+		E9DAE45AAFEBD662E3089701F8CF1273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UTDID;
+			target = 4863D9B7AB289E489DD574863D709C93 /* UTDID */;
+			targetProxy = FBA30D39FC2BB396E514F5C7C5BC4BA9 /* PBXContainerItemProxy */;
+		};
+		ECE6C1BC9E53198E179649579C6C597D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APCommonUI;
+			target = 4C4F5FEB43DB3E714E44934C20971D06 /* APCommonUI */;
+			targetProxy = 1D59564C713E619F87C29846149800CF /* PBXContainerItemProxy */;
+		};
+		F137D8105C33BE574E596C0ECADF128D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APMobileNetwork;
+			target = 0F681679473EBD02A4B9B3EDFD8ABD7E /* APMobileNetwork */;
+			targetProxy = 3CECB470698B98F543D477D8528728D0 /* PBXContainerItemProxy */;
+		};
+		F50480A22475E6EB74606D18CB880E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mPaas;
+			target = BEECCE27D73ABE1213B8CEC95D941FBE /* mPaas */;
+			targetProxy = DF5F91951199C8F4943A156193AAA329 /* PBXContainerItemProxy */;
+		};
+		F69ACF6768355988E401C46ED184A20A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APOpenSSL;
+			target = 39ECD579BA06A9D774BDFEB9D3378766 /* APOpenSSL */;
+			targetProxy = 545F311E1D354F9E92CED14E691B8B41 /* PBXContainerItemProxy */;
+		};
+		F71809935AE33702690B6B3D43F803DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLongLinkService;
+			target = 7D188B9E0804B99089890F3FFC060B9E /* APLongLinkService */;
+			targetProxy = C3254F2DCC0CE3E24EAF84F8CD69FE13 /* PBXContainerItemProxy */;
+		};
+		F735BEE17FB9EDC3B6C702DAAB25F307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASSProxy;
+			target = 74F3119507D72F6A7C4DB6C1759C5859 /* MASSProxy */;
+			targetProxy = 4B64BD1693DDC728D5DDED12D3949B90 /* PBXContainerItemProxy */;
+		};
+		F76D7B32D2C5EBC67986DF46A41A9DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TianYan;
+			target = 0C0793E71794591177BAD8423AAD22CC /* TianYan */;
+			targetProxy = 98D61E6789D443380C3EAB77C4F7125B /* PBXContainerItemProxy */;
+		};
+		FA869C147A0FA1FFAE33EE90E596D5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APMobileNetwork;
+			target = 0F681679473EBD02A4B9B3EDFD8ABD7E /* APMobileNetwork */;
+			targetProxy = E8170AAC2A3AF8B43AE4394E7988A55E /* PBXContainerItemProxy */;
+		};
+		FC5A9BAEE36B9EC41E2058CF37E4C01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TianYan;
+			target = 0C0793E71794591177BAD8423AAD22CC /* TianYan */;
+			targetProxy = B1E6773FBC8825CF34C0C66406D205D4 /* PBXContainerItemProxy */;
+		};
+		FE02239102AC33F4806B5C2183DC5EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoTracker;
+			target = 8C51F9A10CAFB4A8C188B3B0F303B1E6 /* AutoTracker */;
+			targetProxy = 00EF9F67A7D23DA0833F3C8A17D79E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0944CF820D56A452006A3101E33830C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65612335C885B0CF395EA27ACD9D6CDD /* APMobileNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CD4451EECA94D17C0C758AF799153A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20555E558AEC8549C179943F4D68E9DA /* UTDID.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DBA0E6E62208E7AE7792528A2B02354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B02193756B5BCACB059337CCC9660A6 /* NebulaSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13D5FBB312488AC35D5E5809249590ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6570511DE098B6D9776A31B5421B2D /* MPMasAdapter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15B6223F1E34680BF55641F9D001BD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F87988B03FA52A4903160151632DCC /* MPMgsAdapter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178EA1E2EF94CB557419946D953F69E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E3E8A9EACA7783685D3727735E764B /* MPPerformance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BE62FDCCF75AD32C5E8F7CDAE654C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EA144E8AA29B379A91E4E5CD3BCAA3 /* APWebImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D4EEAD389BD9582A39889385D2D30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5537C47DD831BBC64B3ADEC36E0D73 /* MPMpaaSService.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20EFE5AE8F0741729503B3653468C693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9209AC3C1850DB74B0C89D18877708E6 /* AntUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27B4F59EC7E219896F830641315AA255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3070B4D9B8897FEEF995C56D242AD9FA /* APProtocolBuffers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C34DCEB92E415D34FC020D3D4945F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F3133B1442769A80B66FA6DFBC5677 /* TianYan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A2782A4C21B09914F2387B2B9915A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27263ACBE18F9C8EC20E47709D280A27 /* MPNebulaAdapter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36737342891CE84038040E93DC6356F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E79F99E85393C3BCDAC0E058D5D1360 /* Pods-podTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-podTest/Pods-podTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-podTest/Pods-podTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		380AD8B6CA2EA0D4B25E82EA52369FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772AB75F27CD96BB49C730EB47726A41 /* MPDataCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403E158D1D45BF3675A3C8A5FF6582F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A944345FC8E1BC42D185DBCB2C69656E /* SecurityGuardSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4335202EFF52323715F86D562BA43C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B7BC1A7BD8B901A896440B071DCFA5 /* APWebImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4394A5B3E7932F47FB2BC6C12A65C843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D5512E298CB4E4FBC0FED80EDF2647 /* NebulamPaaSBiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		467EC2CA281AD9815E892348972A7FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5FCC832F0447A1ED50D597DDD4EDB4 /* APRemoteLogging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A6BE203B6EE15B1F6FEFB3DBBBE482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89624B155C8E80D098F05DC2C27667A /* MPMgsAdapter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B1F32A9A97B4D1C4DE16F204B5C261F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4715FC4E57A47561595276917FF33C1E /* NebulaAppManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C8BF518340A92C03EF4B3B3D8DD2E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7964D2210261947D4E1C09A410A5F6F8 /* APLog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563AA8F37C1A0C91A277717835B10A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190F10AE0D2BAF316C9A14434FE2A828 /* MPNebulaSDKPlugins.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		588F085D21A024F51EDCAAE7F90FCDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42306254999A97EF43E33A2A62336EDD /* MASSProxy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		619B0A8870AA556A5EDFB18C033E4C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C89ACAA9AA1E0B32AD07579A053C92 /* APProtocolBuffers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634CDDB7807655AF03436873421AE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB958667A6D16540CE1017ADE84D0FB3 /* APSecurityUtility.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		658304609F74E04DAC2544816C06B30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6F546CEC33AFD1D8150343BD829BC3 /* APLongLinkService.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EF63E3C830B7B74681F7838D00B92BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7907D4F673017141CE4360F98C2ACC /* MPMasAdapter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717DA09B6063000CFBA972CC6DC178F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62BBE1B91211B9F3F30F6913428483C /* SecurityGuardSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7853D5EBFA7DFFA917FC292E8431E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C3C109699C1C778BDD6D5621E922F5 /* TianYan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A4080846DBC59BE3597CFE2CE9716C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B72E33CECE28D5771D709AEC88E641 /* APCrashReporter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D1ABEE208AE072C97392FEDFB02300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAEAD3594B91C582688CD9C8A8AEE4C /* APLongLinkService.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE52C70FA43A45637328C17ECEBCB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FE4F0692E362CDFC3B609600BD8E58 /* APRemoteLogging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		837C9A7DD604D61FBD66148886DA9439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAB59A04921BBC3820C19DFB200A4E4 /* NebulaPoseidon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		858E140A7FE8CD77B1B1710F263DFC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1295A9C17BBE890C12900AF25FC5680E /* APOpenSSL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89638AD8E3783C6BE25202611366CB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85C93813F7FB7D2BDE315AF7299D28D /* APMobileFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A7EABD521A132D3D166BB153385D77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A666E0880ACD29549C4316B7648D0FD /* NebulaSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D512F133A179CFA1F536E22C6608666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1435BAA974CAA8BF711B9EFC91BCBF5E /* MASSProxy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		915A8BCFDABD538F7BA902B35CDA4253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57D88DE1025CEF2EEBB7B5B3C978AE9 /* APMobileNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		961B736B8A92BB9703D048F1978855C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6F574FB6E22A04C520394068C73E13 /* AntUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99E4EAAC6E9F4A6AFA0ED3181F860C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80622106B5C6412AFEDF46F75D7D1216 /* MPNebulaSDKPlugins.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3D7A6DD622DE116AF3ADC48789B313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF22BF9033E9C1643B36A663EB098CA /* APMobileFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C83F84378D189F8305007A9E88FF3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895E2CAAEB5C2689C101A96F14FAB3B2 /* mPaas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EFD37441614DBA03B3BDA72D07D2483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A525C49B34FEA8D0C733F1062B084E3A /* APOpenSSL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2023AD2B6477605C561BC7B46DC5C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EED2835CC1F1DF3081458F716D8D677 /* MPDataCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42868445A6FF247E15A5932F731A9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBBF1E6121049E33DBEDF04A57FE9F6 /* MPMssAdapter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A527D82EA1DD447FC4A1DDA9A2A720F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A67EFF240949229C6EE416A237AFD3 /* AutoTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8B7A5552F78FA41363F386E53B95EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCBA240EFE8118D3895FD553A9E78B1 /* NebulaLogging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A91C74898ABFD12A4B132E95C833BC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90991FFFC86A71035D5D714E5DB008F /* MPMpaaSService.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAC94F4AD11E3D148B51E4118A4BE7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4344E7848D204B8FBDEA68230D4A80 /* APCrashReporter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF75F26D252714C9C05D9B5A5B0B0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33AAF5388572DDAEB52B66FEDC1CC36 /* MPNebulaAdapter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B49EDD9D61B56E81DC8122B04DAB6673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A93476BAE6C162BD1C992183CFB0AF /* NebulaAppManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5E36DC276BEAD8E305629E9E5D43C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC88131FD334486A3F5E523A0C57A2C /* APSecurityUtility.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C69DA4E635BD8346BBF425A873AF49EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF739D3914AFC3E3EFF66A6613DFF805 /* Pods-podTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-podTest/Pods-podTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-podTest/Pods-podTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C915784CA8A1B2C7EC3DEF5D90F3F998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F575FE53D3392A24D9E9B0940D69CB /* APCommonUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDF08281BB18DCE2E3B78745C025DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87BA0718929A025BC05EC8133C16A90 /* MASSChannel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA5B589F26C8B6A91A980ED1DB0764D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FA0632C3139F7D5C3A35235A7BC5DF /* NebulaPoseidon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D9FA4853AD5AC7BE09D5C10807724D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0273C84D309E4C7A6FD6E10D6769A9E0 /* APCommonUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E268A3477EFC91B66406E08A10E909A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F745D99305F74BD4774690307E28274 /* MPPerformance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4C459BC1D800849781292190B458D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F9A40656DDFA240F074345E419B397 /* NebulamPaaSBiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F1B7767B942BF06C13BF81DDA9C1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152098C17455FB8544CDF1E644DFE80E /* APLog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB33BEB428D638B6E4ACA564E23E488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2785CEF2A0DCCF68F91F2B316EA7CA30 /* AutoTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09C86EDED48C0078B3A8F1CF6B9B275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4060A809C1E642A1BFE511C2171ACD12 /* NebulaLogging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1A0BD9BD122132EE1E00D320324CC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7590CB1A4BA49513FB37C5F41221ADA1 /* mPaas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A35C0F714C0F5BA2F12915E3F5828D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C143F4E6525071F08667B33497E40608 /* UTDID.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6F79F9D831D9225447C0878C4BFBD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1939DFABF5912DA9A5519B2184F8535B /* MPMssAdapter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE0ADF0FC9A3492B3FD4DE2883015F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5756B1665A618D2ACCE1DD7163D74A61 /* MASSChannel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D2230B668FED3C04FDCFAB652EF9CD /* Build configuration list for PBXAggregateTarget "APLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F1B7767B942BF06C13BF81DDA9C1EC /* Debug */,
+				4C8BF518340A92C03EF4B3B3D8DD2E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268FBE8C5C1B2C20CD62866FF9D058BD /* Build configuration list for PBXAggregateTarget "APCommonUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C915784CA8A1B2C7EC3DEF5D90F3F998 /* Debug */,
+				D5D9FA4853AD5AC7BE09D5C10807724D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D43A8C44AB6E864A8BCBD3DB58AA062 /* Build configuration list for PBXAggregateTarget "APSecurityUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634CDDB7807655AF03436873421AE8C1 /* Debug */,
+				C5E36DC276BEAD8E305629E9E5D43C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EF4E4AC7C8BC60D5379300BFC899B3 /* Build configuration list for PBXAggregateTarget "MPMpaaSService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91C74898ABFD12A4B132E95C833BC66 /* Debug */,
+				20D4EEAD389BD9582A39889385D2D30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7044181561D5A165BE947D04447FAE /* Build configuration list for PBXAggregateTarget "MPMgsAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B6223F1E34680BF55641F9D001BD2A /* Debug */,
+				49A6BE203B6EE15B1F6FEFB3DBBBE482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A435D473223B72E8D53A2B1678E5661 /* Build configuration list for PBXAggregateTarget "NebulamPaaSBiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C459BC1D800849781292190B458D1A /* Debug */,
+				4394A5B3E7932F47FB2BC6C12A65C843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5B38DB6CCA7E665167F0A5BF453292 /* Build configuration list for PBXAggregateTarget "MPMssAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42868445A6FF247E15A5932F731A9A0 /* Debug */,
+				F6F79F9D831D9225447C0878C4BFBD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690DBEB6825715EB9B012B3CC32BCEB1 /* Build configuration list for PBXAggregateTarget "NebulaPoseidon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837C9A7DD604D61FBD66148886DA9439 /* Debug */,
+				CEA5B589F26C8B6A91A980ED1DB0764D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9A292182A04AB6B066FC69BA90291A /* Build configuration list for PBXAggregateTarget "APRemoteLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE52C70FA43A45637328C17ECEBCB4B /* Debug */,
+				467EC2CA281AD9815E892348972A7FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC2CEC22692EA0209CB38B605313AAE /* Build configuration list for PBXAggregateTarget "MPMasAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D5FBB312488AC35D5E5809249590ED /* Debug */,
+				6EF63E3C830B7B74681F7838D00B92BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3BD5065CEBE5A3F63420A9E2CF7AA0 /* Build configuration list for PBXAggregateTarget "NebulaAppManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49EDD9D61B56E81DC8122B04DAB6673 /* Debug */,
+				4B1F32A9A97B4D1C4DE16F204B5C261F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F683B3AD0F6EBD4BE0863CB04EEEB81 /* Build configuration list for PBXAggregateTarget "APOpenSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858E140A7FE8CD77B1B1710F263DFC81 /* Debug */,
+				9EFD37441614DBA03B3BDA72D07D2483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830AE90380193A7C7DA43A42D99ED2DE /* Build configuration list for PBXAggregateTarget "MASSChannel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE0ADF0FC9A3492B3FD4DE2883015F8 /* Debug */,
+				CDDF08281BB18DCE2E3B78745C025DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AEF5633E17C9D1F83FFA2C86CF139E /* Build configuration list for PBXAggregateTarget "UTDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A35C0F714C0F5BA2F12915E3F5828D /* Debug */,
+				0CD4451EECA94D17C0C758AF799153A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA58132E33DF74DE8A331269130C721 /* Build configuration list for PBXAggregateTarget "APLongLinkService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658304609F74E04DAC2544816C06B30E /* Debug */,
+				7D1ABEE208AE072C97392FEDFB02300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD260E1AD282A79D8569C881B11316 /* Build configuration list for PBXNativeTarget "Pods-podTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69DA4E635BD8346BBF425A873AF49EA /* Debug */,
+				36737342891CE84038040E93DC6356F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9493D26F524384FAC88775BCCBDDB3D8 /* Build configuration list for PBXAggregateTarget "MPNebulaSDKPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E4EAAC6E9F4A6AFA0ED3181F860C12 /* Debug */,
+				563AA8F37C1A0C91A277717835B10A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D7B03DB764D9AE1C29470121F9EB0C /* Build configuration list for PBXAggregateTarget "mPaas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A0BD9BD122132EE1E00D320324CC32 /* Debug */,
+				9C83F84378D189F8305007A9E88FF3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9859754CAF352D6A6DBC7ECA27609EC6 /* Build configuration list for PBXAggregateTarget "AutoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB33BEB428D638B6E4ACA564E23E488 /* Debug */,
+				A527D82EA1DD447FC4A1DDA9A2A720F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9739D79E9BE2840F4371676DD599E0 /* Build configuration list for PBXAggregateTarget "MPPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E268A3477EFC91B66406E08A10E909A7 /* Debug */,
+				178EA1E2EF94CB557419946D953F69E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57344A02F5B488BFD89DDEAC3370C3B /* Build configuration list for PBXAggregateTarget "MPNebulaAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A2782A4C21B09914F2387B2B9915A0 /* Debug */,
+				ACF75F26D252714C9C05D9B5A5B0B0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9255A8ED9039468DCFA1FA8FF37E8F0 /* Build configuration list for PBXAggregateTarget "TianYan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7853D5EBFA7DFFA917FC292E8431E81E /* Debug */,
+				2C34DCEB92E415D34FC020D3D4945F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDBAD561D25EC75061D6AD09DEA9E58 /* Build configuration list for PBXAggregateTarget "MPDataCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2023AD2B6477605C561BC7B46DC5C06 /* Debug */,
+				380AD8B6CA2EA0D4B25E82EA52369FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C289EA079FA3167BD8FDC9175987D32C /* Build configuration list for PBXAggregateTarget "NebulaLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B7A5552F78FA41363F386E53B95EA9 /* Debug */,
+				F09C86EDED48C0078B3A8F1CF6B9B275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68C95C195BC4E653A7B6620045D853C /* Build configuration list for PBXAggregateTarget "NebulaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7EABD521A132D3D166BB153385D77C /* Debug */,
+				0DBA0E6E62208E7AE7792528A2B02354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06BD1D8C2615E3F055B4A67B9D24123 /* Build configuration list for PBXAggregateTarget "APCrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A4080846DBC59BE3597CFE2CE9716C /* Debug */,
+				AAC94F4AD11E3D148B51E4118A4BE7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D91B0E090D098F6456932FD650C47B /* Build configuration list for PBXAggregateTarget "APMobileNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915A8BCFDABD538F7BA902B35CDA4253 /* Debug */,
+				0944CF820D56A452006A3101E33830C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A76BD96CC6DF7DB653C3574F84A423 /* Build configuration list for PBXAggregateTarget "MASSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D512F133A179CFA1F536E22C6608666 /* Debug */,
+				588F085D21A024F51EDCAAE7F90FCDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05404BF048D5DCE8A87FDF99BB253A5 /* Build configuration list for PBXAggregateTarget "APWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4335202EFF52323715F86D562BA43C80 /* Debug */,
+				1BE62FDCCF75AD32C5E8F7CDAE654C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E843175903CCB1E33E25E0777D1201D2 /* Build configuration list for PBXAggregateTarget "SecurityGuardSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403E158D1D45BF3675A3C8A5FF6582F1 /* Debug */,
+				717DA09B6063000CFBA972CC6DC178F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA59209A6D5BDB6B8FA92B154991209 /* Build configuration list for PBXAggregateTarget "APMobileFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3D7A6DD622DE116AF3ADC48789B313 /* Debug */,
+				89638AD8E3783C6BE25202611366CB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C00C38DFA1071E27A8FC54DEE0FB00 /* Build configuration list for PBXAggregateTarget "AntUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961B736B8A92BB9703D048F1978855C7 /* Debug */,
+				20EFE5AE8F0741729503B3653468C693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89C9F96D5F0813DDBA77447D43696E2 /* Build configuration list for PBXAggregateTarget "APProtocolBuffers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B4F59EC7E219896F830641315AA255 /* Debug */,
+				619B0A8870AA556A5EDFB18C033E4C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

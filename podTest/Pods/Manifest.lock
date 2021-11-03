@@ -1,0 +1,206 @@
+PODS:
+  - AntUI (1.0.0.190815205600)
+  - APCommonUI (1.0.0.190918174700):
+    - AntUI
+  - APCrashReporter (1.0.0.190917161433):
+    - APLog
+    - APRemoteLogging
+    - mPaas
+  - APLog (3.0.2.190829173707)
+  - APLongLinkService (1.0.0.190917135900):
+    - APLog
+    - APProtocolBuffers
+    - mPaas
+    - MPDataCenter
+    - SecurityGuardSDK
+    - UTDID
+  - APMobileFramework (1.0.0.200204175515):
+    - APLog
+    - APRemoteLogging
+    - mPaas
+  - APMobileNetwork (1.0.0.190816112238):
+    - APOpenSSL
+    - APSecurityUtility
+    - mPaas
+    - SecurityGuardSDK
+  - APOpenSSL (1.0.0.190816112238)
+  - APProtocolBuffers (1.0.1.190816112238)
+  - APRemoteLogging (1.0.0.200206103609):
+    - mPaas
+    - UTDID
+  - APSecurityUtility (1.2.0.171012202618)
+  - APWebImage (1.0.0.190816120249)
+  - AutoTracker (1.0.0.190816104604):
+    - APLog
+    - APRemoteLogging
+  - MASSChannel (1.0.0.190816112238):
+    - APProtocolBuffers
+  - MASSProxy (1.0.0.190816112238):
+    - MASSChannel
+  - mPaas (1.0.0.200206182421):
+    - APLog
+  - MPDataCenter (1.0.0.190917153828):
+    - mPaas
+  - MPMasAdapter (1.0.0.200204164013):
+    - APCrashReporter
+    - APRemoteLogging
+    - AutoTracker
+    - MPPerformance
+  - MPMgsAdapter (1.0.0.190822171230):
+    - APMobileNetwork
+  - MPMpaaSService (1.0.0.191114120655):
+    - APLog
+    - APLongLinkService
+    - APMobileNetwork
+    - APProtocolBuffers
+    - APRemoteLogging
+    - mPaas
+  - MPMssAdapter (1.0.0.190822171230):
+    - APLongLinkService
+  - MPNebulaAdapter (1.0.0.190924152258):
+    - AntUI
+    - APMobileNetwork
+    - mPaas
+    - NebulaLogging
+    - NebulamPaaSBiz
+    - NebulaSDK
+  - MPNebulaSDKPlugins (1.0.0.190425122504):
+    - APCommonUI
+    - APMobileFramework
+    - APMobileNetwork
+    - MPDataCenter
+    - NebulaAppManager
+    - NebulaSDK
+  - MPPerformance (1.0.0.190816105817):
+    - APRemoteLogging
+    - AutoTracker
+    - MPDataCenter
+    - TianYan
+  - NebulaAppManager (1.0.0.190816105952)
+  - NebulaLogging (1.0.0.191119182516):
+    - APRemoteLogging
+    - AutoTracker
+    - NebulaSDK
+  - NebulamPaaSBiz (1.0.0.190816111401):
+    - MASSChannel
+    - MASSProxy
+    - MPDataCenter
+    - MPMpaaSService
+    - NebulaAppManager
+    - NebulaLogging
+    - NebulaSDK
+  - NebulaPoseidon (1.0.0.191122175250)
+  - NebulaSDK (1.0.0.191122175250):
+    - APWebImage
+    - NebulaAppManager
+    - NebulaPoseidon
+  - SecurityGuardSDK (2.2.3.190816112239)
+  - TianYan (1.0.0.190816105253)
+  - UTDID (1.0.2.190816112239)
+
+DEPENDENCIES:
+  - AntUI (= 1.0.0.190815205600)
+  - APCommonUI (= 1.0.0.190918174700)
+  - APCrashReporter (= 1.0.0.190917161433)
+  - APLog (= 3.0.2.190829173707)
+  - APLongLinkService (= 1.0.0.190917135900)
+  - APMobileFramework (= 1.0.0.200204175515)
+  - APMobileNetwork (= 1.0.0.190816112238)
+  - APOpenSSL (= 1.0.0.190816112238)
+  - APProtocolBuffers (= 1.0.1.190816112238)
+  - APRemoteLogging (= 1.0.0.200206103609)
+  - APSecurityUtility (= 1.2.0.171012202618)
+  - APWebImage (= 1.0.0.190816120249)
+  - AutoTracker (= 1.0.0.190816104604)
+  - MASSChannel (= 1.0.0.190816112238)
+  - MASSProxy (= 1.0.0.190816112238)
+  - mPaas (= 1.0.0.200206182421)
+  - MPDataCenter (= 1.0.0.190917153828)
+  - MPMasAdapter (= 1.0.0.200204164013)
+  - MPMgsAdapter (= 1.0.0.190822171230)
+  - MPMpaaSService (= 1.0.0.191114120655)
+  - MPMssAdapter (= 1.0.0.190822171230)
+  - MPNebulaAdapter (= 1.0.0.190924152258)
+  - MPNebulaSDKPlugins (= 1.0.0.190425122504)
+  - MPPerformance (= 1.0.0.190816105817)
+  - NebulaAppManager (= 1.0.0.190816105952)
+  - NebulaLogging (= 1.0.0.191119182516)
+  - NebulamPaaSBiz (= 1.0.0.190816111401)
+  - NebulaPoseidon (= 1.0.0.191122175250)
+  - NebulaSDK (= 1.0.0.191122175250)
+  - SecurityGuardSDK (= 2.2.3.190816112239)
+  - TianYan (= 1.0.0.190816105253)
+  - UTDID (= 1.0.2.190816112239)
+
+SPEC REPOS:
+  https://code.aliyun.com/mpaas-public/podspecs.git:
+    - AntUI
+    - APCommonUI
+    - APCrashReporter
+    - APLog
+    - APLongLinkService
+    - APMobileFramework
+    - APMobileNetwork
+    - APOpenSSL
+    - APProtocolBuffers
+    - APRemoteLogging
+    - APSecurityUtility
+    - APWebImage
+    - AutoTracker
+    - MASSChannel
+    - MASSProxy
+    - mPaas
+    - MPDataCenter
+    - MPMasAdapter
+    - MPMgsAdapter
+    - MPMpaaSService
+    - MPMssAdapter
+    - MPNebulaAdapter
+    - MPNebulaSDKPlugins
+    - MPPerformance
+    - NebulaAppManager
+    - NebulaLogging
+    - NebulamPaaSBiz
+    - NebulaPoseidon
+    - NebulaSDK
+    - SecurityGuardSDK
+    - TianYan
+    - UTDID
+
+SPEC CHECKSUMS:
+  AntUI: 2b04c3c484a78b869e3aa15fd5e6da7e0355b588
+  APCommonUI: 66d4426bd6a5a54dd73636d13fcd41dc59d334d2
+  APCrashReporter: 9a3af31aeafdd48187f22f3ee6fdf8a662661ac7
+  APLog: ceabfb296881ed85869bc260e60ceb645bc7628c
+  APLongLinkService: 77ffd945d6e1a3991d4365fb94a6d243bc97651d
+  APMobileFramework: 02ccb445fdb822a1afef0f8dc1b94fa2acada754
+  APMobileNetwork: 3caca8a1313f9041131f671377e49e43d95254ab
+  APOpenSSL: 868760648bfb8a75c10dde37654e2692ace22cea
+  APProtocolBuffers: cbe55e9261dfce7336f4ec33118c679694b1be66
+  APRemoteLogging: 338c7d6564175f41c24f540b3099a34544657564
+  APSecurityUtility: cae80d8bb130d0aa5c447c944218f280fde84efc
+  APWebImage: 7bcf458e3ffa4836368ba50b1a067cd0001da467
+  AutoTracker: 25af744fabc4161e17680b598c9eafa449d5c70f
+  MASSChannel: f142acec6d5cd1460da9ab9fbb2222438691a52c
+  MASSProxy: 1084df7defeefd7d5d19d7a44149fe1df387824c
+  mPaas: 38f7e42f222955d4a57fbf134d6423063d1853aa
+  MPDataCenter: 5a669048c676ec4a8dea4d4396d19b50bc2fc1cf
+  MPMasAdapter: 72c47f808b5278cfb9f8abb17ea8e3200f054a87
+  MPMgsAdapter: 591d465f9550d228d58d5cfd00ee398d978b1300
+  MPMpaaSService: 40d89708bdf7d1ebd9bb47218e317c9ca71e21cc
+  MPMssAdapter: c8dfc8c14a219c32cacd8fa9e69b02852ce81c43
+  MPNebulaAdapter: c74125e0b010a5bbcbc1824d4b4e355ad39caa79
+  MPNebulaSDKPlugins: a80eb2a90177502ebe40067afedd5397fb8f261d
+  MPPerformance: 642ebc0a61117fc98e918b5ed4d29cce71e18567
+  NebulaAppManager: 9b6b0b8a442acc7e7738364ce0cc2ec3e9b1a65a
+  NebulaLogging: e94a801370d74513442dd5f2349a142a64ff3ca9
+  NebulamPaaSBiz: b16d1ce3c1852720e99573c113c6acc7ed240ef2
+  NebulaPoseidon: dee4d843877d9da8afcbe83e6c32a8e52fa4507b
+  NebulaSDK: 8ea1a8d735b07db4597092a3cbe866a0c881e97e
+  SecurityGuardSDK: 45994d838930d1a5c27e7ce7f1617ce8e8837c55
+  TianYan: 5f94496be1fc41ff875368b372f37b10fd2c1280
+  UTDID: e88a76bd1682c177d32dabe746f2a47fa88c8012
+
+PODFILE CHECKSUM: d6bd7cca17e62b8a2568a93c36dc0c3c1f0a6301
+
+COCOAPODS: 1.10.1

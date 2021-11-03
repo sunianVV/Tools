@@ -1,0 +1,14 @@
+//
+//  podTestUITests-Prefix.pch
+//  podTestUITests
+//
+//  Created by lishuguang915163.com on 2021/11/02.
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "podTestUITests-mPaaS-Headers.h"
+
+#endif
+// MPAAS HEADERS END
